@@ -1,3 +1,11 @@
 @import "../public/css/minireset.min.css";
+@font-face {
+  font-family: "Roboto";
+  src: url("../fonts/Roboto-Light.ttf");
+}
+@font-face {
+  font-family: "Courgette";
+  src: url("..fonts/Courgette-Light.ttf");
+}
 
 /*# sourceMappingURL=style.css.map */
