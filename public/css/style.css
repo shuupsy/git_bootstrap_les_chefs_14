@@ -1,4 +1,10 @@
 @import "minireset.min.css";
+footer #ftr-details li {
+  background-color: #C42D40;
+  border: 1px solid white;
+  padding: 5px 11px;
+}
+
 @font-face {
   font-family: "Roboto";
   src: url("../fonts/Roboto-Light.ttf");
@@ -10151,6 +10157,14 @@ body {
   background-image: url("../images/main_bg.jpg");
 }
 
+header {
+  background-image: url("../images/banner1.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-color: rgba(0, 0, 0, 0.5843137255);
+  background-blend-mode: darken;
+}
+
 .titres {
   text-align: center;
 }
@@ -10162,12 +10176,18 @@ body {
   font-size: 3rem;
 }
 
-header {
-  background-image: url("../images/banner1.jpg");
-  background-size: 100%;
-  background-repeat: no-repeat;
-  background-color: rgba(0, 0, 0, 0.5843137255);
-  background-blend-mode: darken;
+.btn-p {
+  background-color: #C42D40;
+  color: white;
+  border: none;
+  padding: 10px 25px;
+}
+
+.btn-g {
+  background-color: #E4E5E4;
+  color: black;
+  border: none;
+  padding: 10px 25px;
 }
 
 #table-blog {
@@ -10181,7 +10201,6 @@ header {
 .table-form {
   background-image: url("../images/book_table_bg.jpg");
   background-repeat: no-repeat;
-  background-size: contain;
   background-position: center;
 }
 
@@ -10209,11 +10228,6 @@ footer #ftr-details {
   background-size: cover;
   background-position: center;
   padding: 10vh;
-}
-footer #ftr-details li {
-  background-color: #C42D40;
-  border: 1px solid white;
-  padding: 5px 11px;
 }
 footer #ftr-pink {
   background-color: #C42D40;

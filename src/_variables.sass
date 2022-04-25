@@ -1,7 +1,14 @@
 $pink: #C42D40
-$color-grey: #CCCCCC
+$grey: #E4E5E4
 
-@mixin ftr-li
+
+@mixin btn($background, $color)
+    background-color: $background
+    color: $color
+    border: none
+    padding: 10px 25px
+
+%ftr-li
     background-color: $pink
     border: 1px solid white
     padding: 5px 11px
