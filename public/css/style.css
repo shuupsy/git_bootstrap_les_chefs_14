@@ -10201,6 +10201,28 @@ header h1 #taste-p {
   padding: 10px 25px;
 }
 
+#story-menu {
+  background-color: white;
+  background-image: url("../images/box-left-top.png"), url("../images/box-right-top.png"), url("../images/box-bottom-left.png"), url("../images/box-bottom_right.png");
+  background-position: left top, right top, left bottom, right bottom;
+  background-repeat: no-repeat;
+  margin: 0 15vh;
+}
+#story-menu #story {
+  margin: 0 40vh;
+}
+
+#story-menu {
+  background-color: white;
+  background-image: url("../images/box-left-top.png"), url("../images/box-right-top.png"), url("../images/box-bottom-left.png"), url("../images/box-bottom_right.png");
+  background-position: left top, right top, left bottom, right bottom;
+  background-repeat: no-repeat;
+  margin: 0 15vh;
+}
+#story-menu #story {
+  margin: 0 40vh;
+}
+
 #chefs {
   background-image: url("../images/team_background.jpg");
   background-repeat: no-repeat;
