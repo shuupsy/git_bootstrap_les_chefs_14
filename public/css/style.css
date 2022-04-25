@@ -10173,9 +10173,9 @@ header {
 #testimonials {
   background-image: url("../images/testimonials_background.jpg");
   background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  padding: 15vh;
+  background-color: rgba(0, 0, 0, 0.5019607843);
+  background-blend-mode: darken;
+  padding: 10vh 15vh;
 }
 
 .p-pink {
