@@ -10169,6 +10169,14 @@ header {
   background-blend-mode: darken;
 }
 
+#testimonials {
+  background-image: url("../images/testimonials_background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 15vh;
+}
+
 #contact {
   background-color: #C42D40;
   margin: 8vh 35%;
