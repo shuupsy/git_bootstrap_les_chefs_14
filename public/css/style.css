@@ -1,4 +1,4 @@
-@import "../public/css/minireset.min.css";
+@import "minireset.min.css";
 @font-face {
   font-family: "Roboto";
   src: url("../fonts/Roboto-Light.ttf");
@@ -10145,12 +10145,18 @@ readers do not read off random characters that represent icons */
   font-weight: 400;
 }
 
-body {
-  background-image: url("../images/main_bg.jpg");
+footer {
+  background-image: url("../images/footer_background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
-
-footer .ftr-pink {
+footer #ftr-details {
+  margin: 0 15vh;
+}
+footer #ftr-pink {
   background-color: #C42D40;
+  height: 10vh;
 }
 
 /*# sourceMappingURL=style.css.map */
