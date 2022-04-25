@@ -10211,6 +10211,9 @@ header {
   background-blend-mode: darken;
   padding: 10vh 15vh;
 }
+#testimonials .testi-txt {
+  border-radius: 14px;
+}
 
 .p-pink {
   color: #C42D40;
