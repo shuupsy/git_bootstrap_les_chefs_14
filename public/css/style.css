@@ -10145,14 +10145,17 @@ readers do not read off random characters that represent icons */
   font-weight: 400;
 }
 
-footer {
+footer #ftr-details {
   background-image: url("../images/footer_background.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  padding: 10vh;
 }
-footer #ftr-details {
-  margin: 0 15vh;
+footer #ftr-details li {
+  background-color: #C42D40;
+  border: 1px solid white;
+  padding: 5px 11px;
 }
 footer #ftr-pink {
   background-color: #C42D40;
