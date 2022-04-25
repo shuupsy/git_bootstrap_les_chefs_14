@@ -10145,6 +10145,20 @@ readers do not read off random characters that represent icons */
   font-weight: 400;
 }
 
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url("../images/main_bg.jpg");
+}
+
+header {
+  background-image: url("../images/banner1.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-color: rgba(0, 0, 0, 0.5843137255);
+  background-blend-mode: darken;
+}
+
 footer #ftr-details {
   background-image: url("../images/footer_background.jpg");
   background-repeat: no-repeat;
