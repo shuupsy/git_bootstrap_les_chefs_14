@@ -10190,6 +10190,13 @@ header {
   padding: 10px 25px;
 }
 
+#chefs {
+  background-image: url("../images/team_background.jpg");
+  background-repeat: no-repeat;
+  background-color: rgba(0, 0, 0, 0.5647058824);
+  background-blend-mode: darken;
+}
+
 #table-blog {
   background-color: white;
   background-image: url("../images/box-left-top-grey.png"), url("../images/box-right-top-grey.png"), url("../images/box-bottom-left-grey.png"), url("../images/box-bottom_right-grey.png");
