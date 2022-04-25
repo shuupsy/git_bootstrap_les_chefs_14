@@ -10159,9 +10159,10 @@ body {
 
 header {
   background-image: url("../images/banner1.jpg");
-  background-size: 100%;
+  background-size: cover;
+  height: 90vh;
   background-repeat: no-repeat;
-  background-color: rgba(0, 0, 0, 0.5843137255);
+  background-color: rgba(0, 0, 0, 0.6);
   background-blend-mode: darken;
 }
 
