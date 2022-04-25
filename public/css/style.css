@@ -10151,10 +10151,13 @@ body {
   background-image: url("../images/main_bg.jpg");
 }
 
-h2 {
+.titres {
+  text-align: center;
+}
+.titres h2 {
   font-family: "Courgette", sans-serif;
 }
-h2 span {
+.titres h2 span {
   color: #C42D40;
 }
 
