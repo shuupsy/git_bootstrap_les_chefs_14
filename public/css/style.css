@@ -10159,6 +10159,7 @@ body {
 }
 .titres h2 span {
   color: #C42D40;
+  font-size: 3rem;
 }
 
 header {
@@ -10175,6 +10176,10 @@ header {
   background-size: cover;
   background-position: center;
   padding: 15vh;
+}
+
+.p-pink {
+  color: #C42D40;
 }
 
 #contact {
