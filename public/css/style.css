@@ -5,7 +5,7 @@
 }
 @font-face {
   font-family: "Courgette";
-  src: url("..fonts/Courgette-Light.ttf");
+  src: url("../fonts/Courgette-Regular.ttf");
 }
 /*!
  * Font Awesome Free 6.1.1 by @fontawesome - https://fontawesome.com
@@ -10149,6 +10149,13 @@ body {
   margin: 0;
   padding: 0;
   background-image: url("../images/main_bg.jpg");
+}
+
+h2 {
+  font-family: "Courgette", sans-serif;
+}
+h2 span {
+  color: #C42D40;
 }
 
 header {
