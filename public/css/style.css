@@ -10169,6 +10169,12 @@ header {
   background-blend-mode: darken;
 }
 
+#contact {
+  background-color: #C42D40;
+  margin: 8vh 35%;
+  border-radius: 15px;
+}
+
 footer #ftr-details {
   background-image: url("../images/footer_background.jpg");
   background-repeat: no-repeat;
