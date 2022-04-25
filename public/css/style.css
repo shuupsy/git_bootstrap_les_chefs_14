@@ -10176,7 +10176,7 @@ header {
   font-size: 3rem;
 }
 
-.btn-p {
+.btn-p, .card-title {
   background-color: #C42D40;
   color: white;
   border: none;
@@ -10206,6 +10206,17 @@ header {
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
+}
+
+#blog {
+  margin: 0 15vh;
+}
+#blog img {
+  border-radius: 14px;
+}
+
+.card-title {
+  border-radius: 14px;
 }
 
 #testimonials {
