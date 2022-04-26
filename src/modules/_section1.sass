@@ -12,8 +12,22 @@
             display: grid
             grid-template-columns: 20% 1fr
             .menu-g
-                color: #CCCCCC
+                font-family: 'Courgette'
                 border-right: 1px solid $grey
+                .list-group-item
+                    border: none
+                    border-bottom: 1px solid $grey
+                    color: #CCCCCC
+                // Changement actif
+                .active
+                    background-color: white
+                    border: none
+                    border-right: 5px solid $pink
+                    border-bottom: 1px solid $grey
+                    i
+                        color: $pink
+                    h3
+                        color: black
             .menu-d
                 display: grid
                 grid-template-columns: repeat(2,1fr)
@@ -28,12 +42,11 @@
                         border: 5px solid $grey
                         border-radius: 50%
                     h5
-                        margin : 0 10px
+                        margin: 0 10px
                     h6
                         font-weight: normal
                         margin: 0 10px
                     p
-                        display: inline
                         padding: 0
                         color: $pink
                         background-color: #CCCCCC

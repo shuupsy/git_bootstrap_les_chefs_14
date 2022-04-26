@@ -10241,8 +10241,25 @@ header .carousel .carousel-indicators button {
   grid-template-columns: 20% 1fr;
 }
 #story-menu #menu .menu-bar .menu-g {
-  color: #CCCCCC;
+  font-family: "Courgette";
   border-right: 1px solid #E4E5E4;
+}
+#story-menu #menu .menu-bar .menu-g .list-group-item {
+  border: none;
+  border-bottom: 1px solid #E4E5E4;
+  color: #CCCCCC;
+}
+#story-menu #menu .menu-bar .menu-g .active {
+  background-color: white;
+  border: none;
+  border-right: 5px solid #C42D40;
+  border-bottom: 1px solid #E4E5E4;
+}
+#story-menu #menu .menu-bar .menu-g .active i {
+  color: #C42D40;
+}
+#story-menu #menu .menu-bar .menu-g .active h3 {
+  color: black;
 }
 #story-menu #menu .menu-bar .menu-d {
   display: grid;
@@ -10268,7 +10285,6 @@ header .carousel .carousel-indicators button {
   margin: 0 10px;
 }
 #story-menu #menu .menu-bar .menu-d .choix-item p {
-  display: inline;
   padding: 0;
   color: #C42D40;
   background-color: #CCCCCC;
@@ -10290,8 +10306,25 @@ header .carousel .carousel-indicators button {
   grid-template-columns: 20% 1fr;
 }
 #story-menu #menu .menu-bar .menu-g {
-  color: #CCCCCC;
+  font-family: "Courgette";
   border-right: 1px solid #E4E5E4;
+}
+#story-menu #menu .menu-bar .menu-g .list-group-item {
+  border: none;
+  border-bottom: 1px solid #E4E5E4;
+  color: #CCCCCC;
+}
+#story-menu #menu .menu-bar .menu-g .active {
+  background-color: white;
+  border: none;
+  border-right: 5px solid #C42D40;
+  border-bottom: 1px solid #E4E5E4;
+}
+#story-menu #menu .menu-bar .menu-g .active i {
+  color: #C42D40;
+}
+#story-menu #menu .menu-bar .menu-g .active h3 {
+  color: black;
 }
 #story-menu #menu .menu-bar .menu-d {
   display: grid;
@@ -10317,7 +10350,6 @@ header .carousel .carousel-indicators button {
   margin: 0 10px;
 }
 #story-menu #menu .menu-bar .menu-d .choix-item p {
-  display: inline;
   padding: 0;
   color: #C42D40;
   background-color: #CCCCCC;
