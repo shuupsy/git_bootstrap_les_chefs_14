@@ -10247,7 +10247,7 @@ header .carousel .carousel-indicators button {
 #story-menu #menu .menu-bar .menu-d {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  gap: 2vh;
+  gap: 5vh;
 }
 #story-menu #menu .menu-bar .menu-d .choix-item {
   display: flex;
@@ -10272,7 +10272,7 @@ header .carousel .carousel-indicators button {
   padding: 0;
   color: #C42D40;
   background-color: #CCCCCC;
-  margin: 0 10px;
+  padding: 0 10px;
 }
 
 #story-menu {
@@ -10296,7 +10296,7 @@ header .carousel .carousel-indicators button {
 #story-menu #menu .menu-bar .menu-d {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  gap: 2vh;
+  gap: 5vh;
 }
 #story-menu #menu .menu-bar .menu-d .choix-item {
   display: flex;
@@ -10321,7 +10321,7 @@ header .carousel .carousel-indicators button {
   padding: 0;
   color: #C42D40;
   background-color: #CCCCCC;
-  margin: 0 10px;
+  padding: 0 10px;
 }
 
 #chefs {
