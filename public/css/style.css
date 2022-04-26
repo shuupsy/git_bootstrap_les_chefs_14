@@ -10164,12 +10164,6 @@ header {
   background-position: bottom, center, center;
   height: 120vh;
 }
-header nav {
-  position: fixed;
-  top: 0;
-  left: 5%;
-  right: 5%;
-}
 header nav li:hover {
   background-color: #C42D40;
 }
@@ -10183,12 +10177,14 @@ header h1 span {
 header h1 #taste-p {
   color: #C42D40;
 }
-
-.carousel-indicators {
-  position: absolute;
-  top: 85vh;
+header .carousel {
+  position: relative;
 }
-.carousel-indicators button {
+header .carousel .carousel-indicators {
+  position: absolute;
+  top: 110vh;
+}
+header .carousel .carousel-indicators button {
   border-radius: 50%;
   height: 15px !important;
   width: 15px !important;

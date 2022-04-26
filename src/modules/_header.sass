@@ -1,14 +1,10 @@
 header
-    background-image: url('../images/bottom_decoration_img.png'),  linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('../images/banner1.jpg')
+    background-image: url('../images/bottom_decoration_img.png'), linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('../images/banner1.jpg')
     background-size: auto, cover, cover
     background-repeat: repeat-x, no-repeat
     background-position: bottom, center, center
     height: 120vh
     nav
-        position: fixed
-        top: 0
-        left: 5%
-        right: 5%
         li
             &:hover
                 background-color: $pink
@@ -20,10 +16,13 @@ header
         #taste-p
             color: $pink
 
-.carousel-indicators
-    position: absolute
-    top: 85vh
-    button
-        border-radius: 50%
-        height: 15px !important
-        width: 15px !important
+    .carousel
+        position: relative
+        .carousel-indicators
+            position: absolute
+            top: 110vh
+            button
+                border-radius: 50%
+                height: 15px !important
+                width: 15px !important
+
