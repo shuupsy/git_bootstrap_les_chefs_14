@@ -10164,6 +10164,12 @@ header {
   background-position: bottom, center, center;
   height: 120vh;
 }
+header nav {
+  position: fixed;
+  top: 0;
+  left: 5%;
+  right: 5%;
+}
 header nav li:hover {
   background-color: #C42D40;
 }
