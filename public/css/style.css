@@ -10164,6 +10164,9 @@ header {
   background-position: bottom, center, center;
   height: 120vh;
 }
+header nav li:hover {
+  background-color: #C42D40;
+}
 header h1 {
   font-family: "Courgette";
   font-size: 3rem;
