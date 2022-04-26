@@ -1,9 +1,13 @@
+// SECTION STORY + MENU LIST
+
 #story-menu
     background-color: white
-    background-image: url('../images/box-left-top.png'), url('../images/box-right-top.png'), url('../images/box-bottom-left.png'), url('../images/box-bottom_right.png') // Décorations dans les 4 coins
+    background-image: url('../images/box-left-top.png'), url('../images/box-right-top.png'), url('../images/box-bottom-left.png'), url('../images/box-bottom_right.png') 
     background-position: left top, right top, left bottom, right bottom
+    // Décorations dans les 4 coins
     background-repeat: no-repeat
     margin: 0 15vh
+
     #story
         margin: 0 40vh // Centrer le texte
 
@@ -11,6 +15,8 @@
         .menu-bar
             display: grid
             grid-template-columns: 20% 1fr
+            // Séparation de l'espace en 2 parties
+            // Menu gauche
             .menu-g
                 font-family: 'Courgette'
                 border-right: 1px solid $grey
@@ -18,8 +24,8 @@
                     border: none
                     border-bottom: 1px solid $grey
                     color: #CCCCCC
-                // Changement actif
-                .active
+                
+                .active // Changement dans l'active
                     background-color: white
                     border: none
                     border-right: 5px solid $pink
@@ -28,26 +34,28 @@
                         color: $pink
                     h3
                         color: black
+            // Menu droite
             .menu-d
                 display: grid
                 grid-template-columns: repeat(2,1fr)
-                gap: 5vh
+                justify-content: space-evenly
+                gap: 15px
                 .choix-item
                     display: flex
                     justify-content: center
                     align-items: center
+                    // Répartition en ligne de img+explications+prix
                     border-bottom: 1px dotted $grey
                     padding-bottom: 1vh
                     img
                         border: 5px solid $grey
-                        border-radius: 50%
+                        border-radius: 50% //Image ronde
                     h5
                         margin: 0 10px
                     h6
                         font-weight: normal
                         margin: 0 10px
                     p
-                        padding: 0
                         color: $pink
                         background-color: #CCCCCC
                         padding: 0 10px

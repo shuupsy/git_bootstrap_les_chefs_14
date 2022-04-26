@@ -10264,7 +10264,8 @@ header .carousel .carousel-indicators button {
 #story-menu #menu .menu-bar .menu-d {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  gap: 5vh;
+  justify-content: space-evenly;
+  gap: 15px;
 }
 #story-menu #menu .menu-bar .menu-d .choix-item {
   display: flex;
@@ -10285,7 +10286,6 @@ header .carousel .carousel-indicators button {
   margin: 0 10px;
 }
 #story-menu #menu .menu-bar .menu-d .choix-item p {
-  padding: 0;
   color: #C42D40;
   background-color: #CCCCCC;
   padding: 0 10px;
@@ -10329,7 +10329,8 @@ header .carousel .carousel-indicators button {
 #story-menu #menu .menu-bar .menu-d {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  gap: 5vh;
+  justify-content: space-evenly;
+  gap: 15px;
 }
 #story-menu #menu .menu-bar .menu-d .choix-item {
   display: flex;
@@ -10350,7 +10351,6 @@ header .carousel .carousel-indicators button {
   margin: 0 10px;
 }
 #story-menu #menu .menu-bar .menu-d .choix-item p {
-  padding: 0;
   color: #C42D40;
   background-color: #CCCCCC;
   padding: 0 10px;
