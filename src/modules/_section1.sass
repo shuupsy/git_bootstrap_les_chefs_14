@@ -1,8 +1,17 @@
 #story-menu
     background-color: white
-    background-image: url('../images/box-left-top.png'), url('../images/box-right-top.png'), url('../images/box-bottom-left.png'), url('../images/box-bottom_right.png')
+    background-image: url('../images/box-left-top.png'), url('../images/box-right-top.png'), url('../images/box-bottom-left.png'), url('../images/box-bottom_right.png') // Décorations dans les 4 coins
     background-position: left top, right top, left bottom, right bottom
     background-repeat: no-repeat
-    margin: 0 15vh
+    margin: 0 15vh 
     #story
-        margin: 0 40vh
+        margin: 0 40vh // Centrer le texte
+
+    #menu
+        .menu-bar
+            display: grid
+            grid-template-columns: 20% 1fr
+            .menu-g
+                color: #CCCCCC
+            
+

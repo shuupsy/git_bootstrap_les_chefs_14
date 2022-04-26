@@ -10220,6 +10220,13 @@ header h1 #taste-p {
 #story-menu #story {
   margin: 0 40vh;
 }
+#story-menu #menu .menu-bar {
+  display: grid;
+  grid-template-columns: 20% 1fr;
+}
+#story-menu #menu .menu-bar .menu-g {
+  color: #CCCCCC;
+}
 
 #story-menu {
   background-color: white;
@@ -10230,6 +10237,13 @@ header h1 #taste-p {
 }
 #story-menu #story {
   margin: 0 40vh;
+}
+#story-menu #menu .menu-bar {
+  display: grid;
+  grid-template-columns: 20% 1fr;
+}
+#story-menu #menu .menu-bar .menu-g {
+  color: #CCCCCC;
 }
 
 #chefs {
