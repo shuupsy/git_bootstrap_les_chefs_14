@@ -10226,6 +10226,32 @@ header h1 #taste-p {
 }
 #story-menu #menu .menu-bar .menu-g {
   color: #CCCCCC;
+  border-right: 1px solid #E4E5E4;
+}
+#story-menu #menu .menu-bar .menu-d {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2vh;
+}
+#story-menu #menu .menu-bar .menu-d .choix-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 1px dotted #E4E5E4;
+  padding-bottom: 1vh;
+}
+#story-menu #menu .menu-bar .menu-d .choix-item img {
+  border: 5px solid #E4E5E4;
+  border-radius: 50%;
+}
+#story-menu #menu .menu-bar .menu-d .choix-item h6 {
+  font-weight: normal;
+}
+#story-menu #menu .menu-bar .menu-d .choix-item p {
+  display: inline;
+  padding: 0;
+  color: #C42D40;
+  background-color: #CCCCCC;
 }
 
 #story-menu {
@@ -10244,6 +10270,32 @@ header h1 #taste-p {
 }
 #story-menu #menu .menu-bar .menu-g {
   color: #CCCCCC;
+  border-right: 1px solid #E4E5E4;
+}
+#story-menu #menu .menu-bar .menu-d {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2vh;
+}
+#story-menu #menu .menu-bar .menu-d .choix-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 1px dotted #E4E5E4;
+  padding-bottom: 1vh;
+}
+#story-menu #menu .menu-bar .menu-d .choix-item img {
+  border: 5px solid #E4E5E4;
+  border-radius: 50%;
+}
+#story-menu #menu .menu-bar .menu-d .choix-item h6 {
+  font-weight: normal;
+}
+#story-menu #menu .menu-bar .menu-d .choix-item p {
+  display: inline;
+  padding: 0;
+  color: #C42D40;
+  background-color: #CCCCCC;
 }
 
 #chefs {

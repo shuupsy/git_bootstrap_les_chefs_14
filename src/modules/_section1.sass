@@ -3,7 +3,7 @@
     background-image: url('../images/box-left-top.png'), url('../images/box-right-top.png'), url('../images/box-bottom-left.png'), url('../images/box-bottom_right.png') // Décorations dans les 4 coins
     background-position: left top, right top, left bottom, right bottom
     background-repeat: no-repeat
-    margin: 0 15vh 
+    margin: 0 15vh
     #story
         margin: 0 40vh // Centrer le texte
 
@@ -13,5 +13,24 @@
             grid-template-columns: 20% 1fr
             .menu-g
                 color: #CCCCCC
-            
-
+                border-right: 1px solid $grey
+            .menu-d
+                display: grid
+                grid-template-columns: repeat(2,1fr)
+                gap: 2vh
+                .choix-item
+                    display: flex
+                    justify-content: center
+                    align-items: center
+                    border-bottom: 1px dotted $grey
+                    padding-bottom: 1vh
+                    img
+                        border: 5px solid $grey
+                        border-radius: 50%
+                    h6
+                        font-weight: normal
+                    p
+                        display: inline
+                        padding: 0
+                        color: $pink
+                        background-color: #CCCCCC
