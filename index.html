@@ -281,43 +281,81 @@
         <!-- Section(3) Table et Blog -->
         <section id="table-blog" class="border my-5 py-5">
             <!-- Partie Table -->
-            <div>
-                <!-- Titre Table -->
-                <div class="titres mb-5">
-                    <h2 class="m-0"><span>BOOK </span>Your Table</h2>
-                    <img src="public/images/decoration_line.png" alt="decoration line">
-                </div>
-                <!-- Encadré Form -->
-                <div class="table-form text-center container">
-                    <p class="justify-content-center text-light py-5 m-0">For any query please call us at : <span
-                            class="fs-4">+91-1234567890</span></p>
+            <!-- Titre Table -->
+            <div class="titres mb-5">
+                <h2 class="m-0"><span>BOOK </span>Your Table</h2>
+                <img src="public/images/decoration_line.png" alt="decoration line">
+            </div>
+            <!-- Encadré Form -->
+            <div id="table-form" class="text-center container">
+                <p class="justify-content-center text-light py-5 m-0">For any query please call us at : <span
+                        class="fs-4">+91-1234567890</span></p>
 
-                    <!-- Début des forms -->
-                    <div class="row justify-content-center">
-                        <div class="col-3">
-                            <input class="form-control mb-2" type="text" placeholder="Enter Full Name"
-                                aria-label="default input example">
-                            <input class="form-control mb-2" type="text" placeholder="Phone Number"
-                                aria-label="default input example">
-                            <input class="form-control mb-2" type="text" placeholder="Date"
-                                aria-label="default input example">
-                            <input class="form-control mb-2" type="text" placeholder="Occasion"
-                                aria-label="default input example">
-                        </div>
-                        <div class="col-3">
-                            <input class="form-control mb-2" type="text" placeholder="Enter Id"
-                                aria-label="default input example">
-                            <input class="form-control mb-2" type="text" placeholder="No Of Person"
-                                aria-label="default input example">
-                            <input class="form-control mb-2" type="text" placeholder="Time"
-                                aria-label="default input example">
-                            <input class="form-control mb-2" type="text" placeholder="Cuisine"
-                                aria-label="default input example">
+                <!-- Début des forms -->
+                <div class="row justify-content-center">
+                    <div class="col-3">
+                        <!-- Prénom -->
+                        <input class="form-control mb-2" type="text" placeholder="Enter Full Name"
+                            aria-label="default input example">
+                        <!-- Numéro de telephone -->
+                        <input class="form-control mb-2" type="text" placeholder="Phone Number"
+                            aria-label="default input example">
+                        <!-- Date -->
+                        <input class="form-control mb-2" type="text" placeholder="Date"
+                            aria-label="default input example">
+                        <!-- Occasion -->
+                        <div class="dropdown">
+                            <button
+                                class="form-control dropdown-toggle text-secondary d-flex justify-content-between align-items-center mb-2"
+                                type="button" data-bs-toggle="dropdown" aria-expanded="false"
+                                placeholder="Cuisine">Occasion</button>
+                            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                                <li><a class="dropdown-item" href="">Dîner à 2</a></li>
+                                <li><a class="dropdown-item" href="">Afterwork</a></li>
+                                <li><a class="dropdown-item" href="">Réunion familiale</a></li>
+                                <li><a class="dropdown-item" href="">Anniversaire</a></li>
+                                <li><a class="dropdown-item" href="">Autre</a></li>
+                            </ul>
                         </div>
                     </div>
-                    <!-- Bouton rose -->
-                    <button class="my-5 rounded-pill btn-p">BOOK NOW</button>
+                    <div class="col-3">
+                        <!-- ID -->
+                        <input class="form-control mb-2" type="text" placeholder="Enter Id"
+                            aria-label="default input example">
+                        <!-- Nombre de personnes -->
+                        <div class="dropdown">
+                            <button
+                                class="form-control dropdown-toggle text-secondary d-flex justify-content-between align-items-center mb-2"
+                                type="button" data-bs-toggle="dropdown" aria-expanded="false"
+                                placeholder="Cuisine">No Of Person</button>
+                            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                                <li><a class="dropdown-item" href="">1</a></li>
+                                <li><a class="dropdown-item" href="">2</a></li>
+                                <li><a class="dropdown-item" href="">3</a></li>
+                                <li><a class="dropdown-item" href="">4</a></li>
+                                <li><a class="dropdown-item" href="">5</a></li>
+                                <li><a class="dropdown-item" href="">6</a></li>
+                            </ul>
+                        </div>
+                        <!-- Heure -->
+                        <input class="form-control mb-2" type="text" placeholder="Time"
+                            aria-label="default input example">
+                        <!-- Cuisine -->
+                        <div class="dropdown">
+                            <button
+                                class="form-control dropdown-toggle text-secondary d-flex justify-content-between align-items-center"
+                                type="button" data-bs-toggle="dropdown" aria-expanded="false"
+                                placeholder="Cuisine">Cuisine</button>
+                            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                                <li><a class="dropdown-item" href="">Asiatique</a></li>
+                                <li><a class="dropdown-item" href="">Française</a></li>
+                                <li><a class="dropdown-item" href="">Belge</a></li>
+                            </ul>
+                        </div>
+                    </div>
                 </div>
+                <!-- Bouton rose -->
+                <button class="my-5 rounded-pill btn-p">BOOK NOW</button>
             </div>
 
             <!-- Partie Blog -->

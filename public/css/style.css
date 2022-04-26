@@ -10334,15 +10334,17 @@ header .carousel .carousel-indicators button {
   background-repeat: no-repeat;
   margin: 0 15vh;
 }
-#table-blog input {
-  border-radius: 14px;
-}
-
-.table-form {
+#table-blog #table-form {
   background-image: url("../images/book_table_bg.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
+}
+#table-blog #table-form input {
+  border-radius: 14px;
+}
+#table-blog #table-form button {
+  border-radius: 14px;
 }
 
 #blog {
