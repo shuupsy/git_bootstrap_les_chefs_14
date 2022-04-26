@@ -5,7 +5,7 @@ footer #ftr-details li {
   padding: 5px 11px;
 }
 
-.card-title, #blog img, #table-blog #table-form button, #table-blog #table-form input {
+#contact-p, #testimonials .testi-txt, .card-title, #blog img, #table-blog #table-form button, #table-blog #table-form input {
   border-radius: 14px;
 }
 
@@ -10358,10 +10358,6 @@ header .carousel .carousel-indicators button {
   background-blend-mode: darken;
   padding: 10vh 15vh;
 }
-#testimonials .testi-txt {
-  border-radius: 14px;
-}
-
 .p-pink {
   color: #C42D40;
 }
@@ -10369,7 +10365,6 @@ header .carousel .carousel-indicators button {
 #contact-p {
   background-color: #C42D40;
   margin: 8vh 35%;
-  border-radius: 15px;
 }
 
 footer #ftr-details {
