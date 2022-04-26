@@ -4,30 +4,34 @@ header
     background-repeat: repeat-x, no-repeat
     background-position: bottom, center, center
     height: 120vh
+    // 1er background: deco en dents
+    // 2eme background: filtre noir
+    // 3eme background: bg header qui bouge pas
     nav
         li
             &:hover
-                background-color: $pink
+                background-color: $pink // hover sur navbar
             a
-                text-decoration: none
+                text-decoration: none // pasde soulignement
                 color: white
                 &:hover
-                    color: white
-    h1
-        font-family: 'Courgette'
-        font-size: 3rem
-        span
-            font-size: 4rem
-        #taste-p
-            color: $pink
-
+                    color: white //hover sur navbar
     .carousel
-        position: relative
+        position: relative // parent
         .carousel-indicators
             position: absolute
             top: 110vh
+            // placement du titre
             button
                 border-radius: 50%
                 height: 15px !important
                 width: 15px !important
-
+                // Ronds pour carousel
+        .carousel-inner
+            h1
+                font-family: 'Courgette'
+                font-size: 3rem
+                span
+                    font-size: 4rem
+                #taste-p
+                    color: $pink // span pour le mot "taste"

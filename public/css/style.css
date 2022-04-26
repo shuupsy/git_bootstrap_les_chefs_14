@@ -10178,16 +10178,6 @@ header nav li a {
 header nav li a:hover {
   color: white;
 }
-header h1 {
-  font-family: "Courgette";
-  font-size: 3rem;
-}
-header h1 span {
-  font-size: 4rem;
-}
-header h1 #taste-p {
-  color: #C42D40;
-}
 header .carousel {
   position: relative;
 }
@@ -10199,6 +10189,16 @@ header .carousel .carousel-indicators button {
   border-radius: 50%;
   height: 15px !important;
   width: 15px !important;
+}
+header .carousel .carousel-inner h1 {
+  font-family: "Courgette";
+  font-size: 3rem;
+}
+header .carousel .carousel-inner h1 span {
+  font-size: 4rem;
+}
+header .carousel .carousel-inner h1 #taste-p {
+  color: #C42D40;
 }
 
 .titres {
