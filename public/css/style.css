@@ -5,6 +5,10 @@ footer #ftr-details li {
   padding: 5px 11px;
 }
 
+.card-title, #blog img, #table-blog #table-form button, #table-blog #table-form input {
+  border-radius: 14px;
+}
+
 @font-face {
   font-family: "Roboto";
   src: url("../fonts/Roboto-Light.ttf");
@@ -10340,22 +10344,10 @@ header .carousel .carousel-indicators button {
   background-position: center;
   background-size: contain;
 }
-#table-blog #table-form input {
-  border-radius: 14px;
-}
-#table-blog #table-form button {
-  border-radius: 14px;
-}
-
 #blog {
   margin: 0 15vh;
 }
-#blog img {
-  border-radius: 14px;
-}
-
 .card-title {
-  border-radius: 14px;
   bottom: 80%;
 }
 

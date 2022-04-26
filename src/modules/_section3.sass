@@ -1,25 +1,27 @@
 #table-blog
     background-color: white
     background-image: url('../images/box-left-top-grey.png'), url('../images/box-right-top-grey.png'), url('../images/box-bottom-left-grey.png'), url('../images/box-bottom_right-grey.png')
+    // Déco dans les 4 coins
     background-position: left top, right top, left bottom, right bottom
     background-repeat: no-repeat
     margin: 0 15vh
+    // Partie formulaire
     #table-form
         background-image: url('../images/book_table_bg.jpg')
         background-repeat: no-repeat
         background-position: center
         background-size: contain
         input
-            border-radius: 14px
+            @extend %border
         button
-            border-radius: 14px
+            @extend %border
 
 #blog
     margin: 0 15vh
     img
-        border-radius: 14px
+        @extend %border
 
 .card-title
-    @extend .btn-p
-    border-radius: 14px
+    @extend .btn-p // Voir _main.sass 
+    @extend %border
     bottom: 80%
