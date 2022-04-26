@@ -120,222 +120,440 @@
                     <h2 class="m-0 pt-4"><span>OUR </span>Menu List</h2>
                     <img src="public/images/decoration_line.png" alt="decoration line">
                 </div>
+
                 <!-- Menu bar -->
                 <div class="menu-bar my-5">
                     <!-- Menu gauche -->
                     <div class="menu-g px-2 text-center">
-                        <div class="choix-menu mt-2 border-bottom">
-                            <i class="fa-3x fa-solid fa-mug-hot"></i>
-                            <h3>BreakFast</h3>
-                        </div>
+                        <div class="list-group" id="list-tab" role="tablist">
+                            <!-- Icone BREAKFAST -->
+                            <a class="list-group-item list-group-item-action active" id="list-home-list"
+                                data-bs-toggle="list" href="#list-home" role="tab" aria-controls="list-home">
+                                <i class="fa-3x fa-solid fa-mug-hot"></i>
+                                <h3>BreakFast</h3>
+                            </a>
+                            <!-- Icone LUNCH -->
+                            <a class="list-group-item list-group-item-action" id="list-profile-list"
+                                data-bs-toggle="list" href="#list-profile" role="tab" aria-controls="list-profile">
+                                <i class="fa-3x fa-solid fa-burger"></i>
+                                <h3>Lunch</h3>
+                            </a>
+                            <!-- Icone SNACKS -->
+                            <a class="list-group-item list-group-item-action" id="list-messages-list"
+                                data-bs-toggle="list" href="#list-messages" role="tab" aria-controls="list-messages">
+                                <i class="fa-3x fa-solid fa-bell-concierge"></i>
+                                <h3>Snacks</h3>
+                            </a>
+                            <!-- Icone DINNER -->
+                            <a class="list-group-item list-group-item-action" id="list-settings-list"
+                                data-bs-toggle="list" href="#list-settings" role="tab" aria-controls="list-settings">
+                                <i class="fa-3x fa-solid fa-mug-hot"></i>
+                                <h3>Dinner</h3>
+                            </a>
 
-                        <div class="choix-menu mt-3 border-bottom">
-                            <i class="fa-3x fa-solid fa-burger"></i>
-                            <h3>Lunch</h3>
-                        </div>
-
-                        <div class="choix-menu mt-3 border-bottom">
-                            <i class="fa-3x fa-solid fa-bell-concierge"></i>
-                            <h3>Snacks</h3>
-                        </div>
-
-                        <div class="choix-menu mt-3 border-bottom">
-                            <i class="fa-3x fa-solid fa-mug-hot"></i>
-                            <h3>Dinner</h3>
                         </div>
                     </div>
-                    <!-- Menu droite (BREAKFAST) -->
-                    <div class="menu-d mx-3 my-3">
-                        <div class="choix-item">
-                            <div><img src="public/images/menu_image_1.jpg" alt="photo cafe"></div>
-                            <div>
-                                <h5>Deer Steak with Potatoes</h5>
-                                <h6>Welcome to Risotto restaurant website. Here we try to share our</h6>
-                            </div>
-                            <p>$25</p>
-                        </div>
+                    <!-- Fin Menu gauche -->
+                    <!-- Début Menu droite -->
+                    <div class="tab-content" id="nav-tabContent">
+                        <!-- Menu BREAKFAST -->
+                        <div class="tab-pane fade show active" id="list-home" role="tabpanel"
+                            aria-labelledby="list-home-list">
+                            <div class="menu-d mx-3 my-3">
+                                <div class="choix-item">
+                                    <div><img src="public/images/menu_image_1.jpg" alt="photo cafe"></div>
+                                    <div>
+                                        <h5>Deer Steak with Potatoes</h5>
+                                        <h6>Welcome to Risotto restaurant website. Here we try to share our</h6>
+                                    </div>
+                                    <p>$25</p>
+                                </div>
 
-                        <div class="choix-item">
-                            <div><img src="public/images/menu_image_1.jpg" alt="photo cafe"></div>
-                            <div>
-                                <h5>Deer Steak with Potatoes</h5>
-                                <h6>Welcome to Risotto restaurant website. Here we try to share our</h6>
-                            </div>
-                            <p>$25</p>
-                        </div>
+                                <div class="choix-item">
+                                    <div><img src="public/images/menu_image_1.jpg" alt="photo cafe"></div>
+                                    <div>
+                                        <h5>Deer Steak with Potatoes</h5>
+                                        <h6>Welcome to Risotto restaurant website. Here we try to share our</h6>
+                                    </div>
+                                    <p>$25</p>
+                                </div>
 
-                        <div class="choix-item">
-                            <div><img src="public/images/menu_image_1.jpg" alt="photo cafe"></div>
-                            <div>
-                                <h5>Deer Steak with Potatoes</h5>
-                                <h6>Welcome to Risotto restaurant website. Here we try to share our</h6>
-                            </div>
-                            <p>$25</p>
-                        </div>
+                                <div class="choix-item">
+                                    <div><img src="public/images/menu_image_1.jpg" alt="photo cafe"></div>
+                                    <div>
+                                        <h5>Deer Steak with Potatoes</h5>
+                                        <h6>Welcome to Risotto restaurant website. Here we try to share our</h6>
+                                    </div>
+                                    <p>$25</p>
+                                </div>
 
-                        <div class="choix-item">
-                            <div><img src="public/images/menu_image_1.jpg" alt="photo cafe"></div>
-                            <div>
-                                <h5>Deer Steak with Potatoes</h5>
-                                <h6>Welcome to Risotto restaurant website. Here we try to share our</h6>
-                            </div>
-                            <p>$25</p>
-                        </div>
+                                <div class="choix-item">
+                                    <div><img src="public/images/menu_image_1.jpg" alt="photo cafe"></div>
+                                    <div>
+                                        <h5>Deer Steak with Potatoes</h5>
+                                        <h6>Welcome to Risotto restaurant website. Here we try to share our</h6>
+                                    </div>
+                                    <p>$25</p>
+                                </div>
 
-                        <div class="choix-item">
-                            <div><img src="public/images/menu_image_1.jpg" alt="photo cafe"></div>
-                            <div>
-                                <h5>Deer Steak with Potatoes</h5>
-                                <h6>Welcome to Risotto restaurant website. Here we try to share our</h6>
-                            </div>
-                            <p>$25</p>
-                        </div>
+                                <div class="choix-item">
+                                    <div><img src="public/images/menu_image_1.jpg" alt="photo cafe"></div>
+                                    <div>
+                                        <h5>Deer Steak with Potatoes</h5>
+                                        <h6>Welcome to Risotto restaurant website. Here we try to share our</h6>
+                                    </div>
+                                    <p>$25</p>
+                                </div>
 
-                        <div class="choix-item">
-                            <div><img src="public/images/menu_image_1.jpg" alt="photo cafe"></div>
-                            <div>
-                                <h5>Deer Steak with Potatoes</h5>
-                                <h6>Welcome to Risotto restaurant website. Here we try to share our</h6>
-                            </div>
-                            <p>$25</p>
-                        </div>
+                                <div class="choix-item">
+                                    <div><img src="public/images/menu_image_1.jpg" alt="photo cafe"></div>
+                                    <div>
+                                        <h5>Deer Steak with Potatoes</h5>
+                                        <h6>Welcome to Risotto restaurant website. Here we try to share our</h6>
+                                    </div>
+                                    <p>$25</p>
+                                </div>
 
-                        <div class="choix-item">
-                            <div><img src="public/images/menu_image_1.jpg" alt="photo cafe"></div>
-                            <div>
-                                <h5>Deer Steak with Potatoes</h5>
-                                <h6>Welcome to Risotto restaurant website. Here we try to share our</h6>
-                            </div>
-                            <p>$25</p>
-                        </div>
+                                <div class="choix-item">
+                                    <div><img src="public/images/menu_image_1.jpg" alt="photo cafe"></div>
+                                    <div>
+                                        <h5>Deer Steak with Potatoes</h5>
+                                        <h6>Welcome to Risotto restaurant website. Here we try to share our</h6>
+                                    </div>
+                                    <p>$25</p>
+                                </div>
 
-                        <div class="choix-item">
-                            <div><img src="public/images/menu_image_1.jpg" alt="photo cafe"></div>
-                            <div>
-                                <h5>Deer Steak with Potatoes</h5>
-                                <h6>Welcome to Risotto restaurant website. Here we try to share our</h6>
-                            </div>
-                            <p>$25</p>
-                        </div>
+                                <div class="choix-item">
+                                    <div><img src="public/images/menu_image_1.jpg" alt="photo cafe"></div>
+                                    <div>
+                                        <h5>Deer Steak with Potatoes</h5>
+                                        <h6>Welcome to Risotto restaurant website. Here we try to share our</h6>
+                                    </div>
+                                    <p>$25</p>
+                                </div>
 
-                        <div class="choix-item">
-                            <div><img src="public/images/menu_image_1.jpg" alt="photo cafe"></div>
-                            <div>
-                                <h5>Deer Steak with Potatoes</h5>
-                                <h6>Welcome to Risotto restaurant website. Here we try to share our</h6>
-                            </div>
-                            <p>$25</p>
-                        </div>
+                                <div class="choix-item">
+                                    <div><img src="public/images/menu_image_1.jpg" alt="photo cafe"></div>
+                                    <div>
+                                        <h5>Deer Steak with Potatoes</h5>
+                                        <h6>Welcome to Risotto restaurant website. Here we try to share our</h6>
+                                    </div>
+                                    <p>$25</p>
+                                </div>
 
-                        <div class="choix-item">
-                            <div><img src="public/images/menu_image_1.jpg" alt="photo cafe"></div>
-                            <div>
-                                <h5>Deer Steak with Potatoes</h5>
-                                <h6>Welcome to Risotto restaurant website. Here we try to share our</h6>
+                                <div class="choix-item">
+                                    <div><img src="public/images/menu_image_1.jpg" alt="photo cafe"></div>
+                                    <div>
+                                        <h5>Deer Steak with Potatoes</h5>
+                                        <h6>Welcome to Risotto restaurant website. Here we try to share our</h6>
+                                    </div>
+                                    <p>$25</p>
+                                </div>
                             </div>
-                            <p>$25</p>
                         </div>
-                    </div>
+                        <!-- Fin Menu BREAKFAST -->
+                        <!-- Menu LUNCH -->
+                        <div class="tab-pane fade" id="list-profile" role="tabpanel"
+                            aria-labelledby="list-profile-list">
+                            <div class="menu-d mx-3 my-3">
+                                <div class="choix-item">
+                                    <div><img src="public/images/menu_image_2.jpg" alt="photo salade"></div>
+                                    <div>
+                                        <h5>Deer Steak with Potatoes</h5>
+                                        <h6>Welcome to Risotto restaurant website. Here we try to share our</h6>
+                                    </div>
+                                    <p>$25</p>
+                                </div>
 
-                    <!-- Menu droite (LUNCH) -->
-                    <!-- <div class="menu-d mx-3 my-3">
-                        <div class="choix-item">
-                            <div><img src="public/images/menu_image_2.jpg" alt="photo cafe"></div>
-                            <div>
-                                <h5>Deer Steak with Potatoes</h5>
-                                <h6>Welcome to Risotto restaurant website. Here we try to share our</h6>
+                                <div class="choix-item">
+                                    <div><img src="public/images/menu_image_2.jpg" alt="photo salade"></div>
+                                    <div>
+                                        <h5>Deer Steak with Potatoes</h5>
+                                        <h6>Welcome to Risotto restaurant website. Here we try to share our</h6>
+                                    </div>
+                                    <p>$35</p>
+                                </div>
+
+                                <div class="choix-item">
+                                    <div><img src="public/images/menu_image_2.jpg" alt="photo salade"></div>
+                                    <div>
+                                        <h5>Deer Steak with Potatoes</h5>
+                                        <h6>Welcome to Risotto restaurant website. Here we try to share our</h6>
+                                    </div>
+                                    <p>$25</p>
+                                </div>
+
+                                <div class="choix-item">
+                                    <div><img src="public/images/menu_image_2.jpg" alt="photo salade"></div>
+                                    <div>
+                                        <h5>Deer Steak with Potatoes</h5>
+                                        <h6>Welcome to Risotto restaurant website. Here we try to share our</h6>
+                                    </div>
+                                    <p>$35</p>
+                                </div>
+
+                                <div class="choix-item">
+                                    <div><img src="public/images/menu_image_2.jpg" alt="photo salade"></div>
+                                    <div>
+                                        <h5>Deer Steak with Potatoes</h5>
+                                        <h6>Welcome to Risotto restaurant website. Here we try to share our</h6>
+                                    </div>
+                                    <p>$25</p>
+                                </div>
+
+                                <div class="choix-item">
+                                    <div><img src="public/images/menu_image_2.jpg" alt="photo salade"></div>
+                                    <div>
+                                        <h5>Deer Steak with Potatoes</h5>
+                                        <h6>Welcome to Risotto restaurant website. Here we try to share our</h6>
+                                    </div>
+                                    <p>$35</p>
+                                </div>
+
+                                <div class="choix-item">
+                                    <div><img src="public/images/menu_image_2.jpg" alt="photo salade"></div>
+                                    <div>
+                                        <h5>Deer Steak with Potatoes</h5>
+                                        <h6>Welcome to Risotto restaurant website. Here we try to share our</h6>
+                                    </div>
+                                    <p>$25</p>
+                                </div>
+
+                                <div class="choix-item">
+                                    <div><img src="public/images/menu_image_2.jpg" alt="photo salade"></div>
+                                    <div>
+                                        <h5>Deer Steak with Potatoes</h5>
+                                        <h6>Welcome to Risotto restaurant website. Here we try to share our</h6>
+                                    </div>
+                                    <p>$35</p>
+                                </div>
+
+                                <div class="choix-item">
+                                    <div><img src="public/images/menu_image_2.jpg" alt="photo salade"></div>
+                                    <div>
+                                        <h5>Deer Steak with Potatoes</h5>
+                                        <h6>Welcome to Risotto restaurant website. Here we try to share our</h6>
+                                    </div>
+                                    <p>$25</p>
+                                </div>
+
+                                <div class="choix-item">
+                                    <div><img src="public/images/menu_image_2.jpg" alt="photo salade"></div>
+                                    <div>
+                                        <h5>Deer Steak with Potatoes</h5>
+                                        <h6>Welcome to Risotto restaurant website. Here we try to share our</h6>
+                                    </div>
+                                    <p>$35</p>
+                                </div>
                             </div>
-                            <p>$25</p>
                         </div>
+                        <!-- Fin Menu LUNCH -->
+                        <!-- Menu SNACKS -->
+                        <div class="tab-pane fade" id="list-messages" role="tabpanel"
+                            aria-labelledby="list-messages-list">
+                            <div class="menu-d mx-3 my-3">
+                                <div class="choix-item">
+                                    <div><img src="public/images/menu_image_3.jpg" alt="photo salade"></div>
+                                    <div>
+                                        <h5>Deer Steak with Potatoes</h5>
+                                        <h6>Welcome to Risotto restaurant website. Here we try to share our</h6>
+                                    </div>
+                                    <p>$25</p>
+                                </div>
 
-                        <div class="choix-item">
-                            <div><img src="public/images/menu_image_2.jpg" alt="photo cafe"></div>
-                            <div>
-                                <h5>Deer Steak with Potatoes</h5>
-                                <h6>Welcome to Risotto restaurant website. Here we try to share our</h6>
+                                <div class="choix-item">
+                                    <div><img src="public/images/menu_image_3.jpg" alt="photo salade"></div>
+                                    <div>
+                                        <h5>Deer Steak with Potatoes</h5>
+                                        <h6>Welcome to Risotto restaurant website. Here we try to share our</h6>
+                                    </div>
+                                    <p>$35</p>
+                                </div>
+
+                                <div class="choix-item">
+                                    <div><img src="public/images/menu_image_3.jpg" alt="photo salade"></div>
+                                    <div>
+                                        <h5>Deer Steak with Potatoes</h5>
+                                        <h6>Welcome to Risotto restaurant website. Here we try to share our</h6>
+                                    </div>
+                                    <p>$25</p>
+                                </div>
+
+                                <div class="choix-item">
+                                    <div><img src="public/images/menu_image_3.jpg" alt="photo salade"></div>
+                                    <div>
+                                        <h5>Deer Steak with Potatoes</h5>
+                                        <h6>Welcome to Risotto restaurant website. Here we try to share our</h6>
+                                    </div>
+                                    <p>$35</p>
+                                </div>
+
+                                <div class="choix-item">
+                                    <div><img src="public/images/menu_image_3.jpg" alt="photo salade"></div>
+                                    <div>
+                                        <h5>Deer Steak with Potatoes</h5>
+                                        <h6>Welcome to Risotto restaurant website. Here we try to share our</h6>
+                                    </div>
+                                    <p>$25</p>
+                                </div>
+
+                                <div class="choix-item">
+                                    <div><img src="public/images/menu_image_3.jpg" alt="photo salade"></div>
+                                    <div>
+                                        <h5>Deer Steak with Potatoes</h5>
+                                        <h6>Welcome to Risotto restaurant website. Here we try to share our</h6>
+                                    </div>
+                                    <p>$35</p>
+                                </div>
+
+                                <div class="choix-item">
+                                    <div><img src="public/images/menu_image_3.jpg" alt="photo salade"></div>
+                                    <div>
+                                        <h5>Deer Steak with Potatoes</h5>
+                                        <h6>Welcome to Risotto restaurant website. Here we try to share our</h6>
+                                    </div>
+                                    <p>$25</p>
+                                </div>
+
+                                <div class="choix-item">
+                                    <div><img src="public/images/menu_image_3.jpg" alt="photo salade"></div>
+                                    <div>
+                                        <h5>Deer Steak with Potatoes</h5>
+                                        <h6>Welcome to Risotto restaurant website. Here we try to share our</h6>
+                                    </div>
+                                    <p>$35</p>
+                                </div>
+
+                                <div class="choix-item">
+                                    <div><img src="public/images/menu_image_3.jpg" alt="photo salade"></div>
+                                    <div>
+                                        <h5>Deer Steak with Potatoes</h5>
+                                        <h6>Welcome to Risotto restaurant website. Here we try to share our</h6>
+                                    </div>
+                                    <p>$25</p>
+                                </div>
+
+                                <div class="choix-item">
+                                    <div><img src="public/images/menu_image_3.jpg" alt="photo salade"></div>
+                                    <div>
+                                        <h5>Deer Steak with Potatoes</h5>
+                                        <h6>Welcome to Risotto restaurant website. Here we try to share our</h6>
+                                    </div>
+                                    <p>$35</p>
+                                </div>
                             </div>
-                            <p>$25</p>
-                        </div>
 
-                        <div class="choix-item">
-                            <div><img src="public/images/menu_image_1.jpg" alt="photo cafe"></div>
-                            <div>
-                                <h5>Deer Steak with Potatoes</h5>
-                                <h6>Welcome to Risotto restaurant website. Here we try to share our</h6>
+
+                        </div>
+                        <!-- Fin Menu SNACKS -->
+                        <!-- Menu DINNER -->
+                        <div class="tab-pane fade" id="list-settings" role="tabpanel"
+                            aria-labelledby="list-settings-list">
+                            <div class="menu-d mx-3 my-3">
+                                <div class="choix-item">
+                                    <div><img src="public/images/menu_image_4.jpg" alt="photo salade"></div>
+                                    <div>
+                                        <h5>Deer Steak with Potatoes</h5>
+                                        <h6>Welcome to Risotto restaurant website. Here we try to share our</h6>
+                                    </div>
+                                    <p>$25</p>
+                                </div>
+
+                                <div class="choix-item">
+                                    <div><img src="public/images/menu_image_4.jpg" alt="photo salade"></div>
+                                    <div>
+                                        <h5>Deer Steak with Potatoes</h5>
+                                        <h6>Welcome to Risotto restaurant website. Here we try to share our</h6>
+                                    </div>
+                                    <p>$35</p>
+                                </div>
+
+                                <div class="choix-item">
+                                    <div><img src="public/images/menu_image_4.jpg" alt="photo salade"></div>
+                                    <div>
+                                        <h5>Deer Steak with Potatoes</h5>
+                                        <h6>Welcome to Risotto restaurant website. Here we try to share our</h6>
+                                    </div>
+                                    <p>$25</p>
+                                </div>
+
+                                <div class="choix-item">
+                                    <div><img src="public/images/menu_image_4.jpg" alt="photo salade"></div>
+                                    <div>
+                                        <h5>Deer Steak with Potatoes</h5>
+                                        <h6>Welcome to Risotto restaurant website. Here we try to share our</h6>
+                                    </div>
+                                    <p>$35</p>
+                                </div>
+
+                                <div class="choix-item">
+                                    <div><img src="public/images/menu_image_4.jpg" alt="photo salade"></div>
+                                    <div>
+                                        <h5>Deer Steak with Potatoes</h5>
+                                        <h6>Welcome to Risotto restaurant website. Here we try to share our</h6>
+                                    </div>
+                                    <p>$25</p>
+                                </div>
+
+                                <div class="choix-item">
+                                    <div><img src="public/images/menu_image_4.jpg" alt="photo salade"></div>
+                                    <div>
+                                        <h5>Deer Steak with Potatoes</h5>
+                                        <h6>Welcome to Risotto restaurant website. Here we try to share our</h6>
+                                    </div>
+                                    <p>$35</p>
+                                </div>
+
+                                <div class="choix-item">
+                                    <div><img src="public/images/menu_image_4.jpg" alt="photo salade"></div>
+                                    <div>
+                                        <h5>Deer Steak with Potatoes</h5>
+                                        <h6>Welcome to Risotto restaurant website. Here we try to share our</h6>
+                                    </div>
+                                    <p>$25</p>
+                                </div>
+
+                                <div class="choix-item">
+                                    <div><img src="public/images/menu_image_4.jpg" alt="photo salade"></div>
+                                    <div>
+                                        <h5>Deer Steak with Potatoes</h5>
+                                        <h6>Welcome to Risotto restaurant website. Here we try to share our</h6>
+                                    </div>
+                                    <p>$35</p>
+                                </div>
+
+                                <div class="choix-item">
+                                    <div><img src="public/images/menu_image_4.jpg" alt="photo salade"></div>
+                                    <div>
+                                        <h5>Deer Steak with Potatoes</h5>
+                                        <h6>Welcome to Risotto restaurant website. Here we try to share our</h6>
+                                    </div>
+                                    <p>$25</p>
+                                </div>
+
+                                <div class="choix-item">
+                                    <div><img src="public/images/menu_image_4.jpg" alt="photo salade"></div>
+                                    <div>
+                                        <h5>Deer Steak with Potatoes</h5>
+                                        <h6>Welcome to Risotto restaurant website. Here we try to share our</h6>
+                                    </div>
+                                    <p>$35</p>
+                                </div>
                             </div>
-                            <p>$25</p>
-                        </div>
 
-                        <div class="choix-item">
-                            <div><img src="public/images/menu_image_2.jpg" alt="photo cafe"></div>
-                            <div>
-                                <h5>Deer Steak with Potatoes</h5>
-                                <h6>Welcome to Risotto restaurant website. Here we try to share our</h6>
-                            </div>
-                            <p>$25</p>
-                        </div>
 
-                        <div class="choix-item">
-                            <div><img src="public/images/menu_image_2.jpg" alt="photo cafe"></div>
-                            <div>
-                                <h5>Deer Steak with Potatoes</h5>
-                                <h6>Welcome to Risotto restaurant website. Here we try to share our</h6>
-                            </div>
-                            <p>$25</p>
                         </div>
+                        <!-- Fin Menu DINNER -->
+                    </div> <!-- Div de Menu droite-->
 
-                        <div class="choix-item">
-                            <div><img src="public/images/menu_image_2.jpg" alt="photo cafe"></div>
-                            <div>
-                                <h5>Deer Steak with Potatoes</h5>
-                                <h6>Welcome to Risotto restaurant website. Here we try to share our</h6>
-                            </div>
-                            <p>$25</p>
-                        </div>
+                </div> <!-- Div de l'ensemble carte-->
+            </div> <!-- Div de Section Menu -->
 
-                        <div class="choix-item">
-                            <div><img src="public/images/menu_image_2.jpg" alt="photo cafe"></div>
-                            <div>
-                                <h5>Deer Steak with Potatoes</h5>
-                                <h6>Welcome to Risotto restaurant website. Here we try to share our</h6>
-                            </div>
-                            <p>$25</p>
-                        </div>
-
-                        <div class="choix-item">
-                            <div><img src="public/images/menu_image_2.jpg" alt="photo cafe"></div>
-                            <div>
-                                <h5>Deer Steak with Potatoes</h5>
-                                <h6>Welcome to Risotto restaurant website. Here we try to share our</h6>
-                            </div>
-                            <p>$25</p>
-                        </div>
-
-                        <div class="choix-item">
-                            <div><img src="public/images/menu_image_2.jpg" alt="photo cafe"></div>
-                            <div>
-                                <h5>Deer Steak with Potatoes</h5>
-                                <h6>Welcome to Risotto restaurant website. Here we try to share our</h6>
-                            </div>
-                            <p>$25</p>
-                        </div>
-
-                        <div class="choix-item">
-                            <div><img src="public/images/menu_image_2.jpg" alt="photo cafe"></div>
-                            <div>
-                                <h5>Deer Steak with Potatoes</h5>
-                                <h6>Welcome to Risotto restaurant website. Here we try to share our</h6>
-                            </div>
-                            <p>$25</p>
-                        </div>
-                    </div> -->
-
-                </div>
-                <!-- Déco bas de page -->
-                <div class="text-center">
-                    <img src="public/images/decoration_line.png" alt="decoration line">
-                </div>
-                <!-- Fin éléments Menu -->
+            <!-- Déco bas de page -->
+            <div class="text-center">
+                <img src="public/images/decoration_line.png" alt="decoration line">
+            </div>
+            <!-- Fin éléments Menu -->
             </div>
             <!-- Fin section List Menu -->
         </section>
