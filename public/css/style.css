@@ -10389,7 +10389,7 @@ header .carousel .carousel-indicators button {
   background-blend-mode: darken;
   padding: 10vh 15vh;
 }
-.p-pink {
+#testimonials .testi-txt .p-pink {
   color: #C42D40;
 }
 
