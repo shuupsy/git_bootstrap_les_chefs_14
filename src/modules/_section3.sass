@@ -1,9 +1,10 @@
+// Section TABLE + BLOG
+
 #table-blog
-    background-color: white
     background-image: url('../images/box-left-top-grey.png'), url('../images/box-right-top-grey.png'), url('../images/box-bottom-left-grey.png'), url('../images/box-bottom_right-grey.png')
-    // Déco dans les 4 coins
     background-position: left top, right top, left bottom, right bottom
     background-repeat: no-repeat
+    // Décorations dans les 4 coins
     margin: 0 15vh
     // Partie formulaire
     #table-form
@@ -11,17 +12,18 @@
         background-repeat: no-repeat
         background-position: center
         background-size: contain
+        // Background image formulaire
         input
-            @extend %border
+            @extend %border //radius 14px
         button
-            @extend %border
-
-#blog
-    margin: 0 15vh
-    img
-        @extend %border
-
-.card-title
-    @extend .btn-p // Voir _main.sass 
-    @extend %border
-    bottom: 80%
+            @extend %border //radius 14px
+    // Partie blog
+    #blog
+        margin: 0 15vh
+        img
+            @extend %border //radius 14px
+        // Encadré rose 
+        .card-title
+            @extend .btn-p // Voir _main.sass: bgcolor, color, ...
+            @extend %border //radius 14px
+            bottom: 80%

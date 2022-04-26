@@ -5,7 +5,7 @@ footer #ftr-details li {
   padding: 5px 11px;
 }
 
-#contact-p, #testimonials .testi-txt, .card-title, #blog img, #table-blog #table-form button, #table-blog #table-form input {
+#contact-p, #testimonials .testi-txt, #table-blog #blog .card-title, #table-blog #blog img, #table-blog #table-form button, #table-blog #table-form input {
   border-radius: 14px;
 }
 
@@ -10212,7 +10212,7 @@ header .carousel .carousel-indicators button {
   font-size: 3rem;
 }
 
-.btn-p, .card-title {
+.btn-p, #table-blog #blog .card-title {
   background-color: #C42D40;
   color: white;
   border: none;
@@ -10364,7 +10364,6 @@ header .carousel .carousel-indicators button {
 }
 
 #table-blog {
-  background-color: white;
   background-image: url("../images/box-left-top-grey.png"), url("../images/box-right-top-grey.png"), url("../images/box-bottom-left-grey.png"), url("../images/box-bottom_right-grey.png");
   background-position: left top, right top, left bottom, right bottom;
   background-repeat: no-repeat;
@@ -10376,10 +10375,10 @@ header .carousel .carousel-indicators button {
   background-position: center;
   background-size: contain;
 }
-#blog {
+#table-blog #blog {
   margin: 0 15vh;
 }
-.card-title {
+#table-blog #blog .card-title {
   bottom: 80%;
 }
 
