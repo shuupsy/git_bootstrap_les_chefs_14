@@ -10166,7 +10166,7 @@ header {
   background-size: auto, cover, cover;
   background-repeat: repeat-x, no-repeat;
   background-position: bottom, center, center;
-  height: 120vh;
+  height: auto;
 }
 header nav li:hover {
   background-color: #C42D40;
@@ -10183,7 +10183,7 @@ header .carousel {
 }
 header .carousel .carousel-indicators {
   position: absolute;
-  top: 110vh;
+  top: 70vh;
 }
 header .carousel .carousel-indicators button {
   border-radius: 50%;
@@ -10386,6 +10386,19 @@ footer #ftr-pink {
 }
 
 @media screen and (min-width: 320px) {
+  header nav .container-fluid {
+    padding: 0;
+  }
+  header nav .container-fluid span {
+    color: #C42D40;
+  }
+  header nav .container-fluid .navbar-collapse {
+    background-color: black;
+  }
+  header .carousel h1 {
+    font-size: 2rem;
+  }
+
   main #menu .menu-bar .menu-g .list-group {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(125px, 1fr));
@@ -10407,6 +10420,12 @@ footer #ftr-pink {
   }
 }
 @media screen and (min-width: 768px) {
+  header {
+    height: 120vh;
+  }
+  header .carousel .carousel-indicators {
+    top: 110vh;
+  }
   header .carousel h1 {
     font-size: 3rem;
   }
@@ -10440,6 +10459,12 @@ footer #ftr-pink {
   }
 }
 @media screen and (min-width: 1024px) {
+  header nav .container-fluid .navbar-collapse {
+    display: flex;
+    justify-content: center;
+    background-color: unset;
+  }
+
   main #story-menu #story {
     margin: 0 30vh;
   }

@@ -1,4 +1,15 @@
 @media screen and (min-width: 320px)
+    header
+        nav
+            .container-fluid
+                padding: 0
+                span
+                    color: $pink
+                .navbar-collapse
+                    background-color: black
+        .carousel
+            h1
+                font-size: 2rem
     main
         #menu
             .menu-bar
@@ -23,7 +34,10 @@
 
 @media screen and (min-width:768px)
     header
+        height: 120vh
         .carousel
+            .carousel-indicators
+                top: 110vh
             h1
                 font-size: 3rem
             span
@@ -51,6 +65,13 @@
 
 // MEDIA AU DELA DE 1024PX
 @media screen and (min-width:1024px)
+    header
+        nav
+            .container-fluid
+                .navbar-collapse
+                    display: flex
+                    justify-content: center
+                    background-color: unset
     main
         #story-menu
             #story
