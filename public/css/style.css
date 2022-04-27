@@ -10173,7 +10173,7 @@ header nav li:hover {
 }
 header nav li a {
   text-decoration: none;
-  color: white;
+  color: white !important;
 }
 header nav li a:hover {
   color: white;

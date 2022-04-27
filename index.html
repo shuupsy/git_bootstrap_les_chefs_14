@@ -22,29 +22,50 @@
     <!-- Début Header -->
     <header class="text-light">
         <!-- Navbar -->
-        <nav class="py-5 d-flex justify-content-center gap-5 align-items-center fixed-top">
-            <!-- Menu gauche -->
-            <ul class="d-flex justify-content-center gap-3 p-0 border-top border-bottom">
-                <li class="p-3"><a href="index.html">HOME</a></li>
-                <li class="p-3"><a href="#story-menu">ABOUT US</a></li>
-                <li class="p-3"><a href="#menu">MENU LIST</a></li>
-                <li class="p-3"><a href="#chefs">TEAM</a></li>
-            </ul>
-
-            <!-- Logo au centre -->
-            <div>
-                <a href="index.html"><img src="public/images/logo.png" alt="logo ustensiles">
-                </a>
+        <nav class="navbar navbar-expand-lg navbar-light fixed-top py-5">
+            <div class="container-fluid">
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse d-flex justify-content-center gap-5" id="navbarNav">
+                <ul class="navbar-nav border-top border-bottom gap-3 p-0 d-flex align-items-center">
+                  <!-- Menu gauche -->
+                  <li class="nav-item p-2">
+                    <a class="nav-link active" aria-current="page" href="index.html">HOME</a>
+                  </li>
+                  <li class="nav-item p-2">
+                    <a class="nav-link" href="#story-menu">ABOUT US</a>
+                  </li>
+                  <li class="nav-item p-2">
+                    <a class="nav-link" href="#menu">MENU LIST</a>
+                  </li>
+                  <li class="nav-item p-2">
+                    <a class="nav-link" href="#chefs">TEAM</a>
+                  </li>
+                </ul>
+                <!-- Logo au centre -->
+                <a href="index.html"><img src="public/images/logo.png" alt="logo ustensiles"></a>
+        
+                <!-- Menu droite -->
+                <ul class="navbar-nav border-top border-bottom gap-1 p-0 d-flex align-items-center justify-content-center">
+                  <li class="nav-item p-2">
+                    <a class="nav-link" aria-current="page" href="#table-blog">RESERVATION</a>
+                  </li>
+                  <li class="nav-item p-2">
+                    <a class="nav-link" aria-current="page" href="#blog">BLOG</a>
+                  </li>
+                  <li class="nav-item p-2">
+                    <a class="nav-link" aria-current="page" href="#testimonials">TESTIMONIALS</a>
+                  </li>
+                  <li class="nav-item p-2">
+                    <a class="nav-link" aria-current="page" href="#contact">CONTACT US</a>
+                  </li>
+                </ul>
+        
+              </div>
             </div>
-
-            <!-- Menu droite -->
-            <ul class="d-flex justify-content-center gap-1 p-0 border-top border-bottom">
-                <li class="p-3"><a href="#table-blog">RESERVATION</a></li>
-                <li class="p-3"><a href="#blog">BLOG</a></li>
-                <li class="p-3"><a href="#testimonials">TESTIMONIALS</a></li>
-                <li class="p-3"><a href="#contact">CONTACT US</a></li>
-            </ul>
-        </nav>
+          </nav>
 
         <!-- Début carousel -->
         <div id="carouselExampleIndicators" class="carousel slide p-5" data-bs-ride="carousel">
