@@ -10343,7 +10343,7 @@ header .carousel .carousel-inner h1 #taste-p {
 
 #chefs {
   background-image: url("../images/team_background.jpg");
-  background-repeat: no-repeat;
+  background-repeat: repeat;
   background-color: rgba(0, 0, 0, 0.5647058824);
   background-blend-mode: darken;
 }
@@ -10367,7 +10367,7 @@ header .carousel .carousel-inner h1 #taste-p {
 
 #testimonials {
   background-image: url("../images/testimonials_background.jpg");
-  background-repeat: no-repeat;
+  background-repeat: repeat;
   background-color: rgba(0, 0, 0, 0.5019607843);
   background-blend-mode: darken;
   height: 100%;
@@ -10397,7 +10397,7 @@ footer #ftr-pink {
     width: 100%;
   }
   main #testimonials {
-    padding: 2vh 1vh;
+    padding: 5vh 2vh;
   }
 }
 @media screen and (min-width: 768px) {
