@@ -10263,7 +10263,7 @@ header .carousel .carousel-inner h1 #taste-p {
 }
 #story-menu #menu .menu-bar .menu-d {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
   justify-content: space-evenly;
   gap: 15px;
 }
@@ -10328,7 +10328,7 @@ header .carousel .carousel-inner h1 #taste-p {
 }
 #story-menu #menu .menu-bar .menu-d {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
   justify-content: space-evenly;
   gap: 15px;
 }
