@@ -10371,6 +10371,7 @@ header .carousel .carousel-inner h1 #taste-p {
   background-repeat: no-repeat;
   background-color: rgba(0, 0, 0, 0.5019607843);
   background-blend-mode: darken;
+  height: 100%;
 }
 #testimonials .testi-txt .p-pink {
   color: #C42D40;
@@ -10391,6 +10392,11 @@ footer #ftr-pink {
   height: 10vh;
 }
 
+@media screen and (min-width: 320px) {
+  main #testimonials {
+    padding: 2vh 1vh;
+  }
+}
 @media screen and (min-width: 768px) {
   header .carousel h1 {
     font-size: 3rem;
@@ -10417,7 +10423,7 @@ footer #ftr-pink {
     margin: 0 15vh;
   }
   main #testimonials {
-    padding: 10vh 15vh;
+    padding: 5vh 10vh;
   }
   main #contact-p {
     margin: 8vh 35%;
@@ -10430,6 +10436,9 @@ footer #ftr-pink {
   }
   main #contact-p {
     width: 35%;
+  }
+  main #testimonials {
+    padding: 10vh 15vh;
   }
 
   footer #ftr-details {
