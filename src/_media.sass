@@ -15,6 +15,13 @@
                     display: grid
                     grid-template-columns: repeat(auto-fit, minmax(125px, 1fr))
                     // Menu Breakfast,Lunch etc. Pour autant qu'il y ait de la place, le menu va s'étirer, et au contraire wrap si pas d'espace.
+                    .active // Changement dans l'active
+                        background-color: white
+                        border-bottom: 5px solid $pink !important
+                    i
+                        color: $pink
+                    h3
+                        color: black
             .menu-d
                 .choix-item
                     display: flex
@@ -37,7 +44,7 @@
         height: 120vh // Hauteur du header
         .carousel
             .carousel-indicators
-                top: 110vh // Position des 3 boutons pour le carousel (en bas du header) 
+                top: 110vh // Position des 3 boutons pour le carousel (en bas du header)
             h1
                 font-size: 3rem // Taille du texte carousel
             span
@@ -80,6 +87,13 @@
                 .menu-bar
                     display: grid
                     grid-template-columns: repeat(auto-fit, 20% minmax(310px, 1fr)) // Pour autant qu'il y ait de la place : les plats se mettront côte à côte, et à l'inverse : wrap si pas d'espace.
+                    .menu-g
+                        border-right: 1px solid $grey
+                        .active // Changement dans l'active
+                            background-color: white
+                            border-right: 5px solid $pink !important
+                            border-bottom: none !important
+                            border-bottom: 1px solid $grey !important
                     div
                         img
                             display: block // Afichage des photos des plats
