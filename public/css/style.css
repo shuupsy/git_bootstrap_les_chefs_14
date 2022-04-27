@@ -10231,10 +10231,6 @@ header .carousel .carousel-inner h1 #taste-p {
   background-image: url("../images/box-left-top.png"), url("../images/box-right-top.png"), url("../images/box-bottom-left.png"), url("../images/box-bottom_right.png");
   background-position: left top, right top, left bottom, right bottom;
   background-repeat: no-repeat;
-  margin: 0 15vh;
-}
-#story-menu #story {
-  margin: 0 40vh;
 }
 #story-menu #menu .menu-bar {
   display: grid;
@@ -10296,10 +10292,6 @@ header .carousel .carousel-inner h1 #taste-p {
   background-image: url("../images/box-left-top.png"), url("../images/box-right-top.png"), url("../images/box-bottom-left.png"), url("../images/box-bottom_right.png");
   background-position: left top, right top, left bottom, right bottom;
   background-repeat: no-repeat;
-  margin: 0 15vh;
-}
-#story-menu #story {
-  margin: 0 40vh;
 }
 #story-menu #menu .menu-bar {
   display: grid;
@@ -10367,7 +10359,6 @@ header .carousel .carousel-inner h1 #taste-p {
   background-image: url("../images/box-left-top-grey.png"), url("../images/box-right-top-grey.png"), url("../images/box-bottom-left-grey.png"), url("../images/box-bottom_right-grey.png");
   background-position: left top, right top, left bottom, right bottom;
   background-repeat: no-repeat;
-  margin: 0 15vh;
 }
 #table-blog #table-form {
   background-image: url("../images/book_table_bg.jpg");
@@ -10387,7 +10378,6 @@ header .carousel .carousel-inner h1 #taste-p {
   background-repeat: no-repeat;
   background-color: rgba(0, 0, 0, 0.5019607843);
   background-blend-mode: darken;
-  padding: 10vh 15vh;
 }
 #testimonials .testi-txt .p-pink {
   color: #C42D40;
@@ -10395,7 +10385,6 @@ header .carousel .carousel-inner h1 #taste-p {
 
 #contact-p {
   background-color: #C42D40;
-  margin: 8vh 35%;
 }
 
 footer #ftr-details {
@@ -10408,6 +10397,27 @@ footer #ftr-details {
 footer #ftr-pink {
   background-color: #C42D40;
   height: 10vh;
+}
+
+@media screen and (min-width: 768px) {
+  #story-menu {
+    margin: 0 15vh;
+  }
+  #story-menu #story {
+    margin: 0 40vh;
+  }
+
+  #table-blog {
+    margin: 0 15vh;
+  }
+
+  #testimonials {
+    padding: 10vh 15vh;
+  }
+
+  #contact-p {
+    margin: 8vh 35%;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
