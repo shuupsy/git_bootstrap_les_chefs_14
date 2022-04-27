@@ -1,5 +1,10 @@
 @media screen and (min-width: 320px)
     main
+        #menu
+            .menu-bar
+                .list-group
+                    display: grid
+                    grid-template-columns: repeat(auto-fit, minmax(125px, 1fr))
         #table-blog
             #table-form
                 color: black
@@ -18,15 +23,13 @@
         #story-menu
             margin: 0 15vh
             #menu
-                .menu-bar
-                    grid-template-columns: repeat(auto-fit, 20% minmax(310px, 1fr))
-                    .menu-d
-                        .choix-item
-                            display: flex
-                            justify-content: center
-                            align-items: center
-                            img
-                                display: inline
+                .menu-d
+                    .choix-item
+                        display: flex
+                        justify-content: center
+                        align-items: center
+                        img
+                            display: inline
 
         #table-blog
             margin: 0 15vh
@@ -49,9 +52,14 @@
 // MEDIA AU DELA DE 1024PX
 @media screen and (min-width:1024px)
     main
-        #story
-            margin: 0 40vh
-            // Centrer le texte
+        #story-menu
+            #story
+                margin: 0 40vh
+                // Centrer le texte
+            #menu
+                .menu-bar
+                    display: grid
+                    grid-template-columns: repeat(auto-fit, 20% minmax(310px, 1fr))
         #table-blog
             #table-form
                 br

@@ -10229,9 +10229,6 @@ header .carousel .carousel-inner h1 #taste-p {
   background-position: left top, right top, left bottom, right bottom;
   background-repeat: no-repeat;
 }
-#story-menu #menu .menu-bar {
-  display: grid;
-}
 #story-menu #menu .menu-bar .menu-g {
   font-family: "Courgette";
   border-right: 1px solid #E4E5E4;
@@ -10287,9 +10284,6 @@ header .carousel .carousel-inner h1 #taste-p {
   background-image: url("../images/box-left-top.png"), url("../images/box-right-top.png"), url("../images/box-bottom-left.png"), url("../images/box-bottom_right.png");
   background-position: left top, right top, left bottom, right bottom;
   background-repeat: no-repeat;
-}
-#story-menu #menu .menu-bar {
-  display: grid;
 }
 #story-menu #menu .menu-bar .menu-g {
   font-family: "Courgette";
@@ -10392,6 +10386,10 @@ footer #ftr-pink {
 }
 
 @media screen and (min-width: 320px) {
+  main #menu .menu-bar .list-group {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(125px, 1fr));
+  }
   main #table-blog #table-form {
     color: black;
     width: 100%;
@@ -10411,15 +10409,12 @@ footer #ftr-pink {
   main #story-menu {
     margin: 0 15vh;
   }
-  main #story-menu #menu .menu-bar {
-    grid-template-columns: repeat(auto-fit, 20% minmax(310px, 1fr));
-  }
-  main #story-menu #menu .menu-bar .menu-d .choix-item {
+  main #story-menu #menu .menu-d .choix-item {
     display: flex;
     justify-content: center;
     align-items: center;
   }
-  main #story-menu #menu .menu-bar .menu-d .choix-item img {
+  main #story-menu #menu .menu-d .choix-item img {
     display: inline;
   }
   main #table-blog {
@@ -10445,8 +10440,12 @@ footer #ftr-pink {
   }
 }
 @media screen and (min-width: 1024px) {
-  main #story {
+  main #story-menu #story {
     margin: 0 40vh;
+  }
+  main #story-menu #menu .menu-bar {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 20% minmax(310px, 1fr));
   }
   main #table-blog #table-form br {
     display: none;
