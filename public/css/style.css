@@ -10230,7 +10230,6 @@ header .carousel .carousel-inner h1 #taste-p {
 }
 #story-menu #menu .menu-bar {
   display: grid;
-  grid-template-columns: repeat(auto-fit, 20% minmax(310px, 1fr));
 }
 #story-menu #menu .menu-bar .menu-g {
   font-family: "Courgette";
@@ -10290,7 +10289,6 @@ header .carousel .carousel-inner h1 #taste-p {
 }
 #story-menu #menu .menu-bar {
   display: grid;
-  grid-template-columns: repeat(auto-fit, 20% minmax(310px, 1fr));
 }
 #story-menu #menu .menu-bar .menu-g {
   font-family: "Courgette";
@@ -10386,7 +10384,6 @@ footer #ftr-details {
   background-repeat: repeat-x, no-repeat;
   background-size: auto, cover;
   background-position: top, center;
-  padding: 10vh;
 }
 footer #ftr-pink {
   background-color: #C42D40;
@@ -10403,6 +10400,9 @@ footer #ftr-pink {
 
   main #story-menu {
     margin: 0 15vh;
+  }
+  main #story-menu #menu .menu-bar {
+    grid-template-columns: repeat(auto-fit, 20% minmax(310px, 1fr));
   }
   main #story-menu #menu .menu-bar .menu-d .choix-item {
     display: flex;
@@ -10423,8 +10423,12 @@ footer #ftr-pink {
   }
 }
 @media screen and (min-width: 1024px) {
-  #story {
+  main #story {
     margin: 0 40vh;
+  }
+
+  footer #ftr-details {
+    padding: 10vh;
   }
 }
 

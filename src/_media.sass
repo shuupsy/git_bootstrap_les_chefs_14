@@ -10,6 +10,7 @@
             margin: 0 15vh
             #menu
                 .menu-bar
+                    grid-template-columns: repeat(auto-fit, 20% minmax(310px, 1fr))
                     .menu-d
                         .choix-item
                             display: flex
@@ -25,7 +26,12 @@
         #contact-p
             margin: 8vh 35% //Centrement de la "boite rose"
 
+// MEDIA AU DELA DE 1024PX
 @media screen and (min-width:1024px)
-    #story
-        margin: 0 40vh
-        // Centrer le texte
+    main
+        #story
+            margin: 0 40vh
+            // Centrer le texte
+    footer
+        #ftr-details
+            padding: 10vh
