@@ -1,44 +1,47 @@
+// MEDIA QUERY A PARTIR DE 320PX
 @media screen and (min-width: 320px)
     header
         nav
             .container-fluid
                 padding: 0
                 span
-                    color: $pink
+                    color: $pink // Couleur de l'icone burger
                 .navbar-collapse
-                    background-color: black
+                    background-color: black // Background quand le menu burger est actif
     main
         #menu
-            .menu-bar
-                .menu-g
-                    .list-group
-                        display: grid
-                        grid-template-columns: repeat(auto-fit, minmax(125px, 1fr))
-                .menu-d
-                    .choix-item
-                        display: flex
-                        justify-content: center
-                        align-items: center
-                        div
-                            img
-                                display: none
+            .menu-g
+                .list-group
+                    display: grid
+                    grid-template-columns: repeat(auto-fit, minmax(125px, 1fr))
+                    // Menu Breakfast,Lunch etc. Pour autant qu'il y ait de la place, le menu va s'étirer, et au contraire wrap si pas d'espace.
+            .menu-d
+                .choix-item
+                    display: flex
+                    justify-content: center
+                    align-items: center
+                    // Disposition des plats en ligne tel que: (photo), description, puis prix
+                    div
+                        img
+                            display: none // Pas d'affichage des photos jusqu'à 768px width
         #table-blog
             #table-form
-                color: black
+                color: black // Titre avec num de tel en noir
                 width: 100%
         #testimonials
             padding: 5vh 2vh
 
+// MEDIA QUERY A PARTIR DE 768
 @media screen and (min-width:768px)
     header
-        height: 120vh
+        height: 120vh // Hauteur du header
         .carousel
             .carousel-indicators
-                top: 110vh
+                top: 110vh // Position des 3 boutons pour le carousel (en bas du header) 
             h1
-                font-size: 3rem
+                font-size: 3rem // Taille du texte carousel
             span
-                font-size: 4rem
+                font-size: 4rem // Taille + grande des mots clés carousel
     main
         #story-menu
             margin: 0 15vh
@@ -50,42 +53,40 @@
                 background-repeat: no-repeat
                 background-position: center
                 background-size: cover
-                // Display background image formulaire
+                // Affichage d'un background image formulaire
                 width: 65%
             #blog
                 margin: 0 5vh
         #testimonials
             padding: 5vh 10vh
         #contact-p
-            margin: 8vh 35% //Centrement de la "boite rose"
+            margin: 8vh 35%
             width: 50%
 
-// MEDIA AU DELA DE 1024PX
+// MEDIAQUERY AU DELA DE 1024PX
 @media screen and (min-width:1024px)
     header
         nav
             .container-fluid
                 .navbar-collapse
-                    display: flex
+                    display: flex // Disposition en ligne de la navbar
                     justify-content: center
-                    background-color: unset
+                    background-color: unset // Suppression du backgroundcolor black (utilisé pour le menu burger)
     main
         #story-menu
             #story
-                margin: 0 30vh
-                // Centrer le texte
+                margin: 0 30vh // Centrer le texte
             #menu
                 .menu-bar
                     display: grid
-                    grid-template-columns: repeat(auto-fit, 20% minmax(310px, 1fr))
-                    #menu
+                    grid-template-columns: repeat(auto-fit, 20% minmax(310px, 1fr)) // Pour autant qu'il y ait de la place : les plats se mettront côte à côte, et à l'inverse : wrap si pas d'espace.
                     div
                         img
-                            display: block
+                            display: block // Afichage des photos des plats
         #table-blog
             #table-form
                 br
-                    display: none
+                    display: none // Pas de saut de ligne entre titre et num de tel
             #blog
                 margin: 0 15vh
         #testimonials
@@ -96,6 +97,7 @@
         #ftr-details
             padding: 10vh
 
+// MEDIAQUERY AU DELA DE 1440PX
 @media screen and (min-width:1440px)
     main
         #story-menu

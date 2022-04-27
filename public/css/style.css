@@ -10397,16 +10397,16 @@ footer #ftr-pink {
     background-color: black;
   }
 
-  main #menu .menu-bar .menu-g .list-group {
+  main #menu .menu-g .list-group {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(125px, 1fr));
   }
-  main #menu .menu-bar .menu-d .choix-item {
+  main #menu .menu-d .choix-item {
     display: flex;
     justify-content: center;
     align-items: center;
   }
-  main #menu .menu-bar .menu-d .choix-item div img {
+  main #menu .menu-d .choix-item div img {
     display: none;
   }
   main #table-blog #table-form {
