@@ -5,7 +5,7 @@ footer #ftr-details li {
   padding: 5px 11px;
 }
 
-#contact-p, #testimonials .testi-txt, #table-blog #blog .card-title, #table-blog #blog img, #table-blog #table-form button, #table-blog #table-form input {
+#contact-p, #testimonials .testi-txt, #table-blog #blog .card-pink, #table-blog #blog img, #table-blog #table-form button, #table-blog #table-form input {
   border-radius: 14px;
 }
 
@@ -10209,7 +10209,7 @@ header .carousel .carousel-inner h1 #taste-p {
   font-size: 3rem;
 }
 
-.btn-p, #table-blog #blog .card-title {
+.btn-p, #table-blog #blog .card-pink {
   background-color: #C42D40;
   color: white;
   border: none;
@@ -10353,11 +10353,13 @@ header .carousel .carousel-inner h1 #taste-p {
   background-position: left top, right top, left bottom, right bottom;
   background-repeat: no-repeat;
 }
-#table-blog #blog .card-title {
+#table-blog #blog .card-pink {
+  width: 60%;
+  left: 10%;
   bottom: 80%;
   font-size: 14px;
 }
-#table-blog #blog .card-title span {
+#table-blog #blog .card-pink span {
   font-weight: bold;
   font-size: 18px;
 }
@@ -10433,9 +10435,6 @@ footer #ftr-pink {
   main #table-blog #blog {
     margin: 0 5vh;
   }
-  main #table-blog #blog .card-title {
-    right: 10%;
-  }
   main #testimonials {
     padding: 5vh 10vh;
   }
@@ -10454,10 +10453,11 @@ footer #ftr-pink {
   main #blog {
     margin: 0 15vh;
   }
-  main #blog .card-title {
-    font-size: 2rem;
-    right: 25%;
-    left: 10%;
+  main #blog .card-pink {
+    font-size: 3rem;
+  }
+  main #blog .card-pink span {
+    font-size: 4rem;
   }
   main #testimonials {
     padding: 10vh 15vh;
