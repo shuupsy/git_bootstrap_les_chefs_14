@@ -10263,7 +10263,6 @@ header .carousel .carousel-inner h1 #taste-p {
 #story-menu #menu .menu-bar .menu-d .choix-item img {
   border: 5px solid #E4E5E4;
   border-radius: 50%;
-  display: none;
 }
 #story-menu #menu .menu-bar .menu-d .choix-item h5 {
   margin: 0 10px;
@@ -10277,6 +10276,7 @@ header .carousel .carousel-inner h1 #taste-p {
   background-color: #CCCCCC;
   padding: 0 10px;
   display: inline;
+  text-align: end;
 }
 
 #story-menu {
@@ -10319,7 +10319,6 @@ header .carousel .carousel-inner h1 #taste-p {
 #story-menu #menu .menu-bar .menu-d .choix-item img {
   border: 5px solid #E4E5E4;
   border-radius: 50%;
-  display: none;
 }
 #story-menu #menu .menu-bar .menu-d .choix-item h5 {
   margin: 0 10px;
@@ -10333,6 +10332,7 @@ header .carousel .carousel-inner h1 #taste-p {
   background-color: #CCCCCC;
   padding: 0 10px;
   display: inline;
+  text-align: end;
 }
 
 #chefs {
@@ -10386,9 +10386,17 @@ footer #ftr-pink {
 }
 
 @media screen and (min-width: 320px) {
-  main #menu .menu-bar .list-group {
+  main #menu .menu-bar .menu-g .list-group {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(125px, 1fr));
+  }
+  main #menu .menu-bar .menu-d .choix-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  main #menu .menu-bar .menu-d .choix-item div img {
+    display: none;
   }
   main #table-blog #table-form {
     color: black;
@@ -10408,14 +10416,6 @@ footer #ftr-pink {
 
   main #story-menu {
     margin: 0 15vh;
-  }
-  main #story-menu #menu .menu-d .choix-item {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  main #story-menu #menu .menu-d .choix-item img {
-    display: inline;
   }
   main #table-blog {
     margin: 0 15vh;
@@ -10446,6 +10446,9 @@ footer #ftr-pink {
   main #story-menu #menu .menu-bar {
     display: grid;
     grid-template-columns: repeat(auto-fit, 20% minmax(310px, 1fr));
+  }
+  main #story-menu #menu .menu-bar div img {
+    display: block;
   }
   main #table-blog #table-form br {
     display: none;

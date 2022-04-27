@@ -2,9 +2,18 @@
     main
         #menu
             .menu-bar
-                .list-group
-                    display: grid
-                    grid-template-columns: repeat(auto-fit, minmax(125px, 1fr))
+                .menu-g
+                    .list-group
+                        display: grid
+                        grid-template-columns: repeat(auto-fit, minmax(125px, 1fr))
+                .menu-d
+                    .choix-item
+                        display: flex
+                        justify-content: center
+                        align-items: center
+                        div
+                            img
+                                display: none
         #table-blog
             #table-form
                 color: black
@@ -22,15 +31,6 @@
     main
         #story-menu
             margin: 0 15vh
-            #menu
-                .menu-d
-                    .choix-item
-                        display: flex
-                        justify-content: center
-                        align-items: center
-                        img
-                            display: inline
-
         #table-blog
             margin: 0 15vh
             #table-form
@@ -39,7 +39,7 @@
                 background-repeat: no-repeat
                 background-position: center
                 background-size: cover
-                // Background image formulaire
+                // Display background image formulaire
                 width: 65%
             #blog
                 margin: 0 5vh
@@ -60,6 +60,10 @@
                 .menu-bar
                     display: grid
                     grid-template-columns: repeat(auto-fit, 20% minmax(310px, 1fr))
+                    #menu
+                    div
+                        img
+                            display: block
         #table-blog
             #table-form
                 br
