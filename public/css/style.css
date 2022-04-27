@@ -10353,11 +10353,13 @@ header .carousel .carousel-inner h1 #taste-p {
   background-position: left top, right top, left bottom, right bottom;
   background-repeat: no-repeat;
 }
-#table-blog #blog {
-  margin: 0 15vh;
-}
 #table-blog #blog .card-title {
   bottom: 80%;
+  font-size: 14px;
+}
+#table-blog #blog .card-title span {
+  font-weight: bold;
+  font-size: 18px;
 }
 
 #testimonials {
@@ -10428,6 +10430,12 @@ footer #ftr-pink {
     background-size: cover;
     width: 65%;
   }
+  main #table-blog #blog {
+    margin: 0 5vh;
+  }
+  main #table-blog #blog .card-title {
+    right: 10%;
+  }
   main #testimonials {
     padding: 5vh 10vh;
   }
@@ -10442,6 +10450,14 @@ footer #ftr-pink {
   }
   main #table-blog #table-form br {
     display: none;
+  }
+  main #blog {
+    margin: 0 15vh;
+  }
+  main #blog .card-title {
+    font-size: 2rem;
+    right: 25%;
+    left: 10%;
   }
   main #testimonials {
     padding: 10vh 15vh;
