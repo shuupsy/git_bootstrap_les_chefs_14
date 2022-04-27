@@ -10238,7 +10238,7 @@ header .carousel .carousel-inner h1 #taste-p {
 }
 #story-menu #menu .menu-bar {
   display: grid;
-  grid-template-columns: 20% 1fr;
+  grid-template-columns: repeat(auto-fit, 20% minmax(300px, 1fr));
 }
 #story-menu #menu .menu-bar .menu-g {
   font-family: "Courgette";
@@ -10263,7 +10263,7 @@ header .carousel .carousel-inner h1 #taste-p {
 }
 #story-menu #menu .menu-bar .menu-d {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   justify-content: space-evenly;
   gap: 15px;
 }
@@ -10303,7 +10303,7 @@ header .carousel .carousel-inner h1 #taste-p {
 }
 #story-menu #menu .menu-bar {
   display: grid;
-  grid-template-columns: 20% 1fr;
+  grid-template-columns: repeat(auto-fit, 20% minmax(300px, 1fr));
 }
 #story-menu #menu .menu-bar .menu-g {
   font-family: "Courgette";
@@ -10328,7 +10328,7 @@ header .carousel .carousel-inner h1 #taste-p {
 }
 #story-menu #menu .menu-bar .menu-d {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   justify-content: space-evenly;
   gap: 15px;
 }
