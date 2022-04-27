@@ -11,7 +11,7 @@
         .menu-bar
             display: grid
             // grid-template-columns: 20% 1fr
-            grid-template-columns: repeat(auto-fit, 20% minmax(300px, 1fr))
+            grid-template-columns: repeat(auto-fit, 20% minmax(310px, 1fr))
             // Séparation de l'espace en 2 parties
             // Menu gauche
             .menu-g
@@ -35,19 +35,17 @@
             .menu-d
                 display: grid
                 // grid-template-columns: repeat(2,1fr)
-                grid-template-columns: repeat(auto-fit, minmax(400px, 1fr))
+                grid-template-columns: repeat(auto-fit, minmax(310px, 1fr))
                 justify-content: space-evenly
                 gap: 15px
                 .choix-item
-                    display: flex
-                    justify-content: center
-                    align-items: center
                     // Répartition en ligne de img+explications+prix
                     border-bottom: 1px dotted $grey
                     padding-bottom: 1vh
                     img
                         border: 5px solid $grey
                         border-radius: 50% //Image ronde
+                        display: none
                     h5
                         margin: 0 10px
                     h6
@@ -57,3 +55,4 @@
                         color: $pink
                         background-color: #CCCCCC
                         padding: 0 10px
+                        display: inline

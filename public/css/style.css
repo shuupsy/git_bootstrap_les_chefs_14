@@ -10192,10 +10192,6 @@ header .carousel .carousel-indicators button {
 }
 header .carousel .carousel-inner h1 {
   font-family: "Courgette";
-  font-size: 3rem;
-}
-header .carousel .carousel-inner h1 span {
-  font-size: 4rem;
 }
 header .carousel .carousel-inner h1 #taste-p {
   color: #C42D40;
@@ -10234,7 +10230,7 @@ header .carousel .carousel-inner h1 #taste-p {
 }
 #story-menu #menu .menu-bar {
   display: grid;
-  grid-template-columns: repeat(auto-fit, 20% minmax(300px, 1fr));
+  grid-template-columns: repeat(auto-fit, 20% minmax(310px, 1fr));
 }
 #story-menu #menu .menu-bar .menu-g {
   font-family: "Courgette";
@@ -10259,20 +10255,18 @@ header .carousel .carousel-inner h1 #taste-p {
 }
 #story-menu #menu .menu-bar .menu-d {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(310px, 1fr));
   justify-content: space-evenly;
   gap: 15px;
 }
 #story-menu #menu .menu-bar .menu-d .choix-item {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   border-bottom: 1px dotted #E4E5E4;
   padding-bottom: 1vh;
 }
 #story-menu #menu .menu-bar .menu-d .choix-item img {
   border: 5px solid #E4E5E4;
   border-radius: 50%;
+  display: none;
 }
 #story-menu #menu .menu-bar .menu-d .choix-item h5 {
   margin: 0 10px;
@@ -10285,6 +10279,7 @@ header .carousel .carousel-inner h1 #taste-p {
   color: #C42D40;
   background-color: #CCCCCC;
   padding: 0 10px;
+  display: inline;
 }
 
 #story-menu {
@@ -10295,7 +10290,7 @@ header .carousel .carousel-inner h1 #taste-p {
 }
 #story-menu #menu .menu-bar {
   display: grid;
-  grid-template-columns: repeat(auto-fit, 20% minmax(300px, 1fr));
+  grid-template-columns: repeat(auto-fit, 20% minmax(310px, 1fr));
 }
 #story-menu #menu .menu-bar .menu-g {
   font-family: "Courgette";
@@ -10320,20 +10315,18 @@ header .carousel .carousel-inner h1 #taste-p {
 }
 #story-menu #menu .menu-bar .menu-d {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(310px, 1fr));
   justify-content: space-evenly;
   gap: 15px;
 }
 #story-menu #menu .menu-bar .menu-d .choix-item {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   border-bottom: 1px dotted #E4E5E4;
   padding-bottom: 1vh;
 }
 #story-menu #menu .menu-bar .menu-d .choix-item img {
   border: 5px solid #E4E5E4;
   border-radius: 50%;
+  display: none;
 }
 #story-menu #menu .menu-bar .menu-d .choix-item h5 {
   margin: 0 10px;
@@ -10346,6 +10339,7 @@ header .carousel .carousel-inner h1 #taste-p {
   color: #C42D40;
   background-color: #CCCCCC;
   padding: 0 10px;
+  display: inline;
 }
 
 #chefs {
@@ -10400,23 +10394,37 @@ footer #ftr-pink {
 }
 
 @media screen and (min-width: 768px) {
-  #story-menu {
-    margin: 0 15vh;
+  header .carousel h1 {
+    font-size: 3rem;
   }
-  #story-menu #story {
-    margin: 0 40vh;
-  }
-
-  #table-blog {
-    margin: 0 15vh;
+  header .carousel span {
+    font-size: 4rem;
   }
 
-  #testimonials {
+  main #story-menu {
+    margin: 0 15vh;
+  }
+  main #story-menu #menu .menu-bar .menu-d .choix-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  main #story-menu #menu .menu-bar .menu-d .choix-item img {
+    display: inline;
+  }
+  main #table-blog {
+    margin: 0 15vh;
+  }
+  main #testimonials {
     padding: 10vh 15vh;
   }
-
-  #contact-p {
+  main #contact-p {
     margin: 8vh 35%;
+  }
+}
+@media screen and (min-width: 1024px) {
+  #story {
+    margin: 0 40vh;
   }
 }
 
