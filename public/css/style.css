@@ -10191,6 +10191,7 @@ header .carousel .carousel-indicators button {
   width: 15px !important;
 }
 header .carousel .carousel-inner h1 {
+  font-size: 2rem;
   font-family: "Courgette";
 }
 header .carousel .carousel-inner h1 #taste-p {
@@ -10395,9 +10396,6 @@ footer #ftr-pink {
   header nav .container-fluid .navbar-collapse {
     background-color: black;
   }
-  header .carousel h1 {
-    font-size: 2rem;
-  }
 
   main #menu .menu-bar .menu-g .list-group {
     display: grid;
@@ -10497,7 +10495,7 @@ footer #ftr-pink {
     margin: 0 10px;
   }
   main #table-blog #blog .card-pink {
-    right: 20%;
+    right: 20% !important;
   }
 }
 
