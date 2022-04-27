@@ -10353,12 +10353,6 @@ header .carousel .carousel-inner h1 #taste-p {
   background-position: left top, right top, left bottom, right bottom;
   background-repeat: no-repeat;
 }
-#table-blog #table-form {
-  background-image: url("../images/book_table_bg.jpg");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: contain;
-}
 #table-blog #blog {
   margin: 0 15vh;
 }
@@ -10393,6 +10387,10 @@ footer #ftr-pink {
 }
 
 @media screen and (min-width: 320px) {
+  main #table-blog #table-form {
+    color: black;
+    width: 100%;
+  }
   main #testimonials {
     padding: 2vh 1vh;
   }
@@ -10422,6 +10420,14 @@ footer #ftr-pink {
   main #table-blog {
     margin: 0 15vh;
   }
+  main #table-blog #table-form {
+    color: white;
+    background-image: url("../images/book_table_bg.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 65%;
+  }
   main #testimonials {
     padding: 5vh 10vh;
   }
@@ -10434,11 +10440,14 @@ footer #ftr-pink {
   main #story {
     margin: 0 40vh;
   }
-  main #contact-p {
-    width: 35%;
+  main #table-blog #table-form br {
+    display: none;
   }
   main #testimonials {
     padding: 10vh 15vh;
+  }
+  main #contact-p {
+    width: 35%;
   }
 
   footer #ftr-details {
