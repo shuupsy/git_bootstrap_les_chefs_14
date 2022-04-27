@@ -10441,7 +10441,7 @@ footer #ftr-pink {
 }
 @media screen and (min-width: 1024px) {
   main #story-menu #story {
-    margin: 0 40vh;
+    margin: 0 30vh;
   }
   main #story-menu #menu .menu-bar {
     display: grid;
@@ -10468,6 +10468,9 @@ footer #ftr-pink {
   }
 }
 @media screen and (min-width: 1440px) {
+  main #story-menu #story {
+    margin: 0 10px;
+  }
   main #table-blog #blog .card-pink {
     right: 20%;
   }
