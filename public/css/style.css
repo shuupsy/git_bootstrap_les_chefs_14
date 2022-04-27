@@ -10420,11 +10420,15 @@ footer #ftr-pink {
   }
   main #contact-p {
     margin: 8vh 35%;
+    width: 50%;
   }
 }
 @media screen and (min-width: 1024px) {
   main #story {
     margin: 0 40vh;
+  }
+  main #contact-p {
+    width: 35%;
   }
 
   footer #ftr-details {
