@@ -21435,6 +21435,7 @@ header .carousel .carousel-inner h1 #taste-p, header .carousel .carousel-inner .
   background-repeat: repeat;
   background-color: rgba(0, 0, 0, 0.5647058824);
   background-blend-mode: darken;
+  background-position: left;
 }
 
 #table-blog {
@@ -21499,7 +21500,7 @@ footer #ftr-pink {
     background-color: white;
     border-bottom: 5px solid #C42D40 !important;
   }
-  main #menu .menu-g .list-group i {
+  main #menu .menu-g .list-group .active i {
     color: #C42D40;
   }
   main #menu .menu-g .list-group h3, main #menu .menu-g .list-group .h3 {
